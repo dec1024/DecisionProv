@@ -1,3 +1,4 @@
+from datetime import datetime
 import requests
 
 import prov.model as prov
@@ -18,6 +19,7 @@ class ProvenanceMonitor:
 
         self.document = prov.ProvDocument()
         self.document.set_default_namespace('')
+        self.entities = set()
 
         self.agents = {item["name"]: self.document.agent(item['name']) for item in self.items}
 
@@ -50,34 +52,31 @@ class DirectedProvenanceMonitor(ProvenanceMonitor):
 
         _MQTT(self._on_message)
 
-    @staticmethod
-    def _triggers_prov(self, triggers, rule_activity, trigger_item_states):
-        print("Processing rule triggers")
-        for i, trigger in enumerate(triggers):
+    def _used_prov(self, items, rule_activity, item_states):
+        for i, item in enumerate(items):
             attributes = {}
-            match trigger["type"]:
+            item_name = item["configuration"]["itemName"]
+            entity_name = f'{item_name} at {self.caught_time}'
+
+            match item["type"]:
                 case "core.ItemStateChangeTrigger":
-                    attributes = trigger["configuration"]
-                    attributes["observedState"] = trigger_item_states[i]
-                    attributes["type"] = trigger["type"]
-
-            rule_activity.used(trigger["configuration"]["itemName"], attributes=attributes)
-
-    @staticmethod
-    def _conditions_prov(self, conditions, rule_activity, condition_item_states):
-        print("Processing conditions triggers")
-        for i, condition in enumerate(conditions):
-            attributes = {}
-            match condition["type"]:
+                    attributes = item["configuration"]
+                    attributes["observedState"] = item_states[i]
+                    attributes["type"] = item["type"]
                 case "core.ItemStateCondition":
-                    attributes = condition["configuration"]
-                    attributes["observedState"] = condition_item_states[i]
-                    attributes["type"] = condition["type"]
+                    attributes = item["configuration"]
+                    attributes["observedState"] = item_states[i]
+                    attributes["type"] = item["type"]
 
-            rule_activity.used(condition["configuration"]["itemName"], attributes=attributes)
+            if entity_name not in self.entities:
+                entity = self.document.entity(entity_name)
+                self.entities.add(entity_name)
+                entity.wasAttributedTo(item_name)
+
+            rule_activity.used(entity_name, attributes=attributes)
 
     @staticmethod
-    def _actions_prov(self, actions, rule_activity):
+    def _actions_prov(actions, rule_activity):
         for action in actions:
             item_associated_with = action["configuration"]["itemName"]
             attributes = {}
@@ -102,15 +101,17 @@ class DirectedProvenanceMonitor(ProvenanceMonitor):
         trigger_item_states = [self._get_state(trigger["configuration"]["itemName"]) for trigger in triggers]
         condition_item_states = [self._get_state(condition["configuration"]["itemName"]) for condition in conditions]
 
+        self.caught_time = datetime.now()
+
         # NO MORE API CALLS PAST THIS POINT
-        rule_activity = self.document.activity(message)
+        rule_activity = self.document.activity(f'{message} at {self.caught_time}')
 
         # add provenance
-        self._triggers_prov(triggers, rule_activity, trigger_item_states)
-        self._conditions_prov(conditions, rule_activity, condition_item_states)
+        self._used_prov(triggers, rule_activity, trigger_item_states)
+        self._used_prov(conditions, rule_activity, condition_item_states)
         self._actions_prov(actions, rule_activity)
 
-        self.draw_prov("hope")
+        self.draw_prov("monitored")
 
 
 if __name__ == '__main__':
