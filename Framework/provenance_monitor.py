@@ -1,7 +1,6 @@
 import requests
 
 import prov.model as prov
-import HABApp
 from prov.dot import prov_to_dot
 
 from mqtt import _MQTT
