@@ -1,10 +1,25 @@
 import shutil
+import os
 import re
 from collections import Counter
 
 import prov.model as prov
 from prov.dot import prov_to_dot
+from provdbconnector import ProvDb, Neo4jAdapter
 
+NEO4J_USER = 'neo4j'
+NEO4J_PASS = os.environ.get('NEO4J_PASSWORD', 'test')
+NEO4J_HOST = os.environ.get('NEO4J_HOST', 'localhost')
+NEO4J_BOLT_PORT = os.environ.get('NEO4J_BOLT_PORT', '7687')
+
+# Auth info
+auth_info = {"user_name": NEO4J_USER,
+             "user_password": NEO4J_PASS,
+             "host": NEO4J_HOST + ":" + NEO4J_BOLT_PORT
+             }
+
+# create the api
+prov_api = ProvDb(adapter=Neo4jAdapter, auth_info=auth_info)
 
 def parsed_action(action, event_type):
     words = action.split(" ")
@@ -36,7 +51,7 @@ def logged_events(file_path="/Users/declanshafi/openhab/userdata/logs/events.log
             for event in lines]
 
 
-def sequence_last_n(outflow, n=5):
+def sequence_last_n(outflow, n=3):
     position = outflow["position"]
     bottom = max(position - n, 0)
     return bottom, position
@@ -154,15 +169,19 @@ def create_prov_graph():
     agents_in, agents_out = unique_items(inflows, outflows)
 
     agents = agents_in.union(agents_out)
+
+    print(agents)
     for agent in agents:
         document.agent(agent)
 
-    infer_provenance(events[-20:], probs, 0.01, document)
+    infer_provenance(events, probs, 0.2, document)
 
     print(probs)
 
     dot = prov_to_dot(document)
     dot.write_png("reconstructed.png")
+
+    document_id = prov_api.save_document(document)
 
 
 if __name__ == '__main__':
