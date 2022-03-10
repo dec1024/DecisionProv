@@ -8,7 +8,7 @@ from paho.mqtt import client as mqtt_client
 
 broker = 'localhost'
 port = 1883
-topic = "sim1/door"
+topic = "sim1/voice"
 # generate client ID with pub prefix randomly
 client_id = f'python-mqtt-{random.randint(0, 1000)}'
 username = 'emqx'
@@ -29,11 +29,11 @@ def connect_mqtt():
     return client
 
 
-def publishDoor(client):
-    position = "OPEN"
+def publishSensor(client):
+    level = 20
     while True:
-        #msg = f"{{position: {position}, time: {datetime.now()}}}"
-        msg = f"{random.choice(['OPEN', 'CLOSED'])}"
+        # msg = f"{{req: {random.choice(['turnon', 'turnoff'])}, time: {datetime.now()}}}"
+        msg = f"{random.choice(['ON', 'OFF'])}"
         result = client.publish(topic, msg)
         # result: [0, 1]
         status = result[0]
@@ -42,17 +42,16 @@ def publishDoor(client):
         else:
             print(f"Failed to send message to topic {topic}")
 
-        if random.random() < 0.5:
-            position = "CLOSED"
-        else:
-            position = "CLOSED"
+        change = random.randint(-5, 5)
+        level += change
 
-        time.sleep(15)
+        time.sleep(random.randint(0, 5))
+
 
 def run():
     client = connect_mqtt()
     client.loop_start()
-    publishDoor(client)
+    publishSensor(client)
 
 
 if __name__ == '__main__':

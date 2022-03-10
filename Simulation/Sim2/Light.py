@@ -5,12 +5,12 @@ import random
 from paho.mqtt import client as mqtt_client
 
 broker = 'localhost'
-port = 1883
-topic = "sim1/lightActuation"
+port = 8080
+topic = "openhab/sim2/Light"
 # generate client ID with pub prefix randomly
 client_id = f'python-mqtt-{random.randint(0, 100)}'
-username = 'emqx'
-password = 'public'
+username = 'oh.Prov.WLfzbVdEwCFyoFHPnTJzJTBSeZbaqNfOrsov28o8sutbUrcdzMe2Zq8WNgYOmG18aJmj8bOjeppfFi49NvnppA'
+password = ''
 
 
 def connect_mqtt() -> mqtt_client:

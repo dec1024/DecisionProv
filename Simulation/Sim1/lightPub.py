@@ -8,7 +8,7 @@ from paho.mqtt import client as mqtt_client
 
 broker = 'localhost'
 port = 1883
-topic = "sim1/voice"
+topic = "sim1/light"
 # generate client ID with pub prefix randomly
 client_id = f'python-mqtt-{random.randint(0, 1000)}'
 username = 'emqx'
@@ -30,8 +30,8 @@ def connect_mqtt():
 def publishSensor(client):
     level = 20
     while True:
-        #msg = f"{{req: {random.choice(['turnon', 'turnoff'])}, time: {datetime.now()}}}"
-        msg = f"{random.choice(['ON', 'OFF'])}"
+        #msg = f"{{level: {level}, time: {datetime.now()}}}"
+        msg = f"{level}"
         result = client.publish(topic, msg)
         # result: [0, 1]
         status = result[0]
@@ -43,7 +43,7 @@ def publishSensor(client):
         change = random.randint(-5, 5)
         level += change
 
-        time.sleep(60)
+        time.sleep(random.randint(5, 10))
 
 
 def run():
