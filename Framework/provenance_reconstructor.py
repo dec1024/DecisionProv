@@ -181,6 +181,7 @@ def create_prov_graph():
     dot = prov_to_dot(document)
     dot.write_png("reconstructed.png")
 
+    print("Saving document")
     document_id = prov_api.save_document(document)
 
 
