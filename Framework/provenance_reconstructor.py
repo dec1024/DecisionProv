@@ -7,11 +7,11 @@ import prov.model as prov
 from link_neo4j import save_document
 
 
-# Auth info
-auth_info = {"user_name": NEO4J_USER,
-             "user_password": NEO4J_PASS,
-             "host": NEO4J_HOST + ":" + NEO4J_BOLT_PORT
-             }
+def strip_reconstructor(original_path):
+    with open(original_path, 'r') as f, open("events_stripped.log", "w") as stripped:
+        for line in f:
+            if not "ProvRuleNotification" in line:
+                stripped.write(line)
 
 
 def parsed_action(action, event_type):
@@ -32,10 +32,11 @@ def parsed_action(action, event_type):
     return {"Text": action}
 
 
-def logged_events(file_path="/Users/declanshafi/openhab/userdata/logs/events.log"):
+def logged_events(file_path="./Data/events.log"):
     shutil.copyfile(file_path, "./events.log")
+    strip_reconstructor("./events.log")
 
-    with open("./events.log", "r") as events:
+    with open("./events_stripped.log", "r") as events:
         lines = events.readlines()
 
     return [{"time": event[0:23],
