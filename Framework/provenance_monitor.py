@@ -125,4 +125,12 @@ class DirectedProvenanceMonitor(ProvenanceMonitor):
 
 
 if __name__ == '__main__':
-    directed_provenance_monitor = DirectedProvenanceMonitor()
+    prov_thread = threading.Thread(target=DirectedProvenanceMonitor)
+    prov_thread.start()
+
+    while True:
+        print("Type anything to save PROV to Neo4J")
+        input()
+        print(document.get_provn())
+        save_document(document)
+
