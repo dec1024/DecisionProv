@@ -1,3 +1,4 @@
+import threading
 from datetime import datetime
 import requests
 
@@ -5,11 +6,13 @@ import prov.model as prov
 from prov.dot import prov_to_dot
 
 from mqtt import _MQTT
+from link_neo4j import save_document
 
+document = prov.ProvDocument()
 
 class ProvenanceMonitor:
     def __init__(self):
-        self.token = "oh.Prov.WLfzbVdEwCFyoFHPnTJzJTBSeZbaqNfOrsov28o8sutbUrcdzMe2Zq8WNgYOmG18aJmj8bOjeppfFi49NvnppA"
+        self.token = "oh.Monitor.LtfJqewJBMHQzgz0bLRX8goIYRdtBYmNHHIWRJFsqGVUhm7BxIBSqR17FGpSKeDD2Y75fhd4uVnmKgX0MyQ"
         self.rulesURL = "http://localhost:8080/rest/rules"
         self.itemsURL = "http://localhost:8080/rest/items"
 
@@ -17,11 +20,12 @@ class ProvenanceMonitor:
         self.rules = requests.get(self.rulesURL, headers=headers, auth=(self.token, '')).json()
         self.items = requests.get(self.itemsURL, headers=headers, auth=(self.token, '')).json()
 
-        self.document = prov.ProvDocument()
-        self.document.set_default_namespace('')
+        print(self.rules)
+        print(self.items)
+        document.set_default_namespace('')
         self.entities = set()
 
-        self.agents = {item["name"]: self.document.agent(item['name']) for item in self.items}
+        self.agents = {item["name"]: document.agent(item['name']) for item in self.items}
 
     def _get_state(self, item: str):
         url = f"http://localhost:8080/rest/items/{item}/state"
@@ -30,7 +34,7 @@ class ProvenanceMonitor:
         return state.text
 
     def draw_prov(self, file_name):
-        dot = prov_to_dot(self.document)
+        dot = prov_to_dot(document)
         dot.write_png(file_name + ".png")
 
     def _on_message(self, client, userdata, msg):
@@ -40,15 +44,19 @@ class ProvenanceMonitor:
 class DirectedProvenanceMonitor(ProvenanceMonitor):
     def __init__(self):
         super().__init__()
+        # Find prov-enabled commands
         self.commands = []
         for rule in self.rules:
             for action in rule["actions"]:
                 if action["configuration"]["itemName"] == "ProvRuleNotification":
                     self.commands.append(action["configuration"]["command"])
 
+        # Match commands with their rules
         self.rule_matches = {}
         for i in range(len(self.commands)):
-            self.rule_matches[self.commands[i]] = (self.rules[i], 0)
+            self.rule_matches[self.commands[i]] = self.rules[i]
+
+        print(self.rule_matches)
 
         _MQTT(self._on_message)
 
@@ -68,17 +76,19 @@ class DirectedProvenanceMonitor(ProvenanceMonitor):
                     attributes["observedState"] = item_states[i]
                     attributes["type"] = item["type"]
 
+            # Sometimes we will be using the same item more than once, so should only create one entity in this case
             if entity_name not in self.entities:
-                entity = self.document.entity(entity_name)
+                entity = document.entity(entity_name, other_attributes=attributes)
                 self.entities.add(entity_name)
                 entity.wasAttributedTo(item_name)
 
-            rule_activity.used(entity_name, attributes=attributes)
+            rule_activity.used(entity_name)
 
-    @staticmethod
-    def _actions_prov(actions, rule_activity):
+    def _actions_prov(self, actions, rule_activity):
         for action in actions:
             item_associated_with = action["configuration"]["itemName"]
+            if item_associated_with == "ProvRuleNotification":
+                continue
             attributes = {}
             match action["type"]:
                 case "core.ItemCommandAction":
@@ -91,7 +101,7 @@ class DirectedProvenanceMonitor(ProvenanceMonitor):
         message = msg.payload.decode()
         print(f"Received `{msg.payload.decode()}` from `{msg.topic}` topic")
 
-        rule = self.rule_matches[message][0]
+        rule = self.rule_matches[message]
 
         triggers = rule["triggers"]
         conditions = rule["conditions"]
@@ -104,7 +114,7 @@ class DirectedProvenanceMonitor(ProvenanceMonitor):
         self.caught_time = datetime.now()
 
         # NO MORE API CALLS PAST THIS POINT
-        rule_activity = self.document.activity(f'{message} at {self.caught_time}')
+        rule_activity = document.activity(f'{message} at {self.caught_time}')
 
         # add provenance
         self._used_prov(triggers, rule_activity, trigger_item_states)
