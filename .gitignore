@@ -5,3 +5,6 @@ Framework/__pycache__/provenance_monitor.cpython-310.pyc
 *.pyc
 *.log
 *.png
+events_stripped.txt
+Examples/GenerateBlindsExampleProv.py
+Examples/GenerateBlindsExampleProv.py
