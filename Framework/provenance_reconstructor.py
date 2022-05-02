@@ -4,13 +4,8 @@ import re
 from collections import Counter
 
 import prov.model as prov
-from prov.dot import prov_to_dot
-from provdbconnector import ProvDb, Neo4jAdapter
+from link_neo4j import save_document
 
-NEO4J_USER = 'neo4j'
-NEO4J_PASS = os.environ.get('NEO4J_PASSWORD', 'test')
-NEO4J_HOST = os.environ.get('NEO4J_HOST', 'localhost')
-NEO4J_BOLT_PORT = os.environ.get('NEO4J_BOLT_PORT', '7687')
 
 # Auth info
 auth_info = {"user_name": NEO4J_USER,
@@ -18,8 +13,6 @@ auth_info = {"user_name": NEO4J_USER,
              "host": NEO4J_HOST + ":" + NEO4J_BOLT_PORT
              }
 
-# create the api
-prov_api = ProvDb(adapter=Neo4jAdapter, auth_info=auth_info)
 
 def parsed_action(action, event_type):
     words = action.split(" ")
@@ -131,8 +124,6 @@ def infer_provenance(events, probs, boundary, document):
     _, outflows = data_flows(events, sequence_last_n)
     allowed = allowed_items(probs, boundary)
     entities = set()
-
-    print(outflows)
     # print(allowed)
 
     for outflow in outflows:
@@ -176,13 +167,10 @@ def create_prov_graph():
 
     infer_provenance(events, probs, 0.2, document)
 
-    print(probs)
+    # dot = prov_to_dot(document)
+    # dot.write_png("reconstructed.png")
 
-    dot = prov_to_dot(document)
-    dot.write_png("reconstructed.png")
-
-    print("Saving document")
-    document_id = prov_api.save_document(document)
+    document_id = save_document(document)
 
 
 if __name__ == '__main__':
