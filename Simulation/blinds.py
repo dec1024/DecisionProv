@@ -1,137 +1,73 @@
 import random
+import threading
 from time import sleep
+from enum import Enum
 
+from simulation_utilities import connect_mqtt, publish
 from paho.mqtt import client as mqtt_client
 from threading import Thread
 
-light = "openhab/sim2/Light"
-blind = "openhab/sim2/Blind"
-ol_sensor = "openhab/sim2/OutsideLight"
-il_sensor = "openhab/sim2/InsideLight"
 
-client_id = f'python-mqtt-{random.randint(0, 100)}'
-broker = 'localhost'
-port = 1883
-# generate client ID with pub prefix randomly
-username = 'emqx'
-password = 'public'
-
-ol_level = 20
-il_level = 0
-blind_status = "CLOSED"
+class Switch(Enum):
+    OFF = 0
+    ON = 1
+    NEUTRAL = 2
 
 
-def connect_mqtt():
-    def on_connect(client, userdata, flags, rc):
-        if rc == 0:
-            print("Connected to MQTT Broker!")
-        else:
-            print("Failed to connect, return code %d\n", rc)
+OLL = "sim1/OLL"
+BS = "sim1/BS"
+ILL = "sim1/ILL"
+LS = "sim1/LS"
+LSS = "sim1/LSS"
 
-    client = mqtt_client.Client(client_id)
-    client.username_pw_set(username, password)
-    client.on_connect = on_connect
-    client.connect(broker, port)
-    return client
+ol_level = random.randint(0, 20)
+blind_state = 0
+bulb_brightness = 10
+light_state = 1
 
-
-def subscribe_light(client: mqtt_client):
-    def on_message(client, userdata, msg):
-        print(f"Received `{msg.payload.decode()}` from `{msg.topic}` topic")
-
-    client.subscribe(light)
-    client.on_message = on_message
+log_file = "./Data/blinds.log"
+with open(log_file, "w"):
+    pass
 
 
-def subscribe_blind(client: mqtt_client):
-    def on_message(client, userdata, msg):
-        global blind_status
-        print(f"Received `{msg.payload.decode()}` from `{msg.topic}` topic")
-        blind_status = msg
-        publish_il()
-
-    client.subscribe(light)
-    client.on_message = on_message
+def inside_light_level():
+    return blind_state * ol_level + light_state * bulb_brightness
 
 
-def subscribe_ol(client: mqtt_client):
-    def on_message(client, userdata, msg):
-        print(f"Received `{msg.payload.decode()}` from `{msg.topic}` topic")
-        if msg == "REQUEST":
-            publish_ol(client)
-
-    client.subscribe(ol_sensor)
-    client.on_message = on_message
-
-
-def publish_ol(client):
-    msg = f"{ol_level}"
-    result = client.publish(ol_sensor, msg)
-    # result: [0, 1]
-    status = result[0]
-    if status == 0:
-        print(f"Send `{msg}` to topic `{ol_sensor}`")
+def subscribe_light(client: mqtt_client, msg):
+    global light_state
+    # Adjust light state and il_level (but not yet published!)
+    if msg == "ON":
+        light_state = 1
     else:
-        print(f"Failed to send message to topic {ol_sensor}")
+        light_state = 0
+
+    if inside_light_level() < 18 and light_state == 0:
+        publish(client, LSS, "ON", log_file=log_file)
+        # After 5 secs reset light to neutral
+        timer = threading.Timer(3.0, publish, args=(client, LSS, "NEUTRAL"), kwargs={"log_file": log_file})
+        timer.start()
 
 
-def subscribe_il(client: mqtt_client):
-    def on_message(client, userdata, msg):
-        print(f"Received `{msg.payload.decode()}` from `{msg.topic}` topic")
-        if msg == "REQUEST":
-            publish_il(client)
-
-    client.subscribe(il_sensor)
-    client.on_message = on_message
-
-
-def publish_il(client):
-    print(blind_status)
-    print(il_level)
-    print(ol_level)
-    if blind_status == "CLOSED":
-        level = il_level
+def subscribe_blind(client: mqtt_client, msg):
+    global blind_state
+    # Adjust light state and il_level (but not yet published!)
+    if msg == "OPEN":
+        blind_state = 1
     else:
-        level = ol_level + il_level
-
-    msg = f"{level}"
-    result = client.publish(il_sensor, msg)
-    # result: [0, 1]
-    status = result[0]
-    if status == 0:
-        print(f"Send `{msg}` to topic `{il_sensor}`")
-    else:
-        print(f"Failed to send message to topic {il_sensor}")
+        blind_state = 0
 
 
 def subscribe(client):
     def on_message(client, userdata, msg):
         print(f"Received `{msg.payload.decode()}` from `{msg.topic}` topic")
-        if msg.payload.decode() == "REQUEST":
-            if msg.topic == il_sensor:
-                print("Publishing inside light")
-                publish_il(client)
-            else:
-                print("Publishing outside light")
-                publish_ol(client)
-        elif msg.topic == blind:
-            global blind_status
-            blind_status = msg.payload.decode()
-            publish_il(client)
-            print(f"Updating blind status to {blind_status}")
-        elif msg.topic == light:
-            global il_level
-            if msg.payload.decode() == "ON":
-                il_level = 10
-            else:
-                il_level = 0
+        if msg.topic == LS:
+            subscribe_light(client, msg.payload.decode())
+        elif msg.topic == BS:
+            subscribe_blind(client, msg.payload.decode())
 
-            print(f"Updating inside light level to {il_level}")
-
-    client.subscribe(il_sensor)
-    client.subscribe(ol_sensor)
-    client.subscribe(light)
-    client.subscribe(blind)
+    client.subscribe(LS)
+    client.subscribe(BS)
     client.on_message = on_message
 
 
@@ -139,13 +75,27 @@ def run():
     client = connect_mqtt()
     subscribe(client)
     client.loop_start()
+    publish(client, LSS, "NEUTRAL", log_file=log_file)
 
     global ol_level
     while True:
-        ol_level = random.choice([0, 20])
-        publish_ol(client)
+        change_ol_level = random.choice([True, False])
+        if change_ol_level:
+            ol_level = random.randint(0, 20)
+
+        il_level = inside_light_level()
+
+        publish_ol_level = random.choices([True, False], weights=(20, 80))[0]
+        publish_il_level = random.choices([True, False], weights=(20, 80))[0]
+
+        if publish_ol_level:
+            publish(client, OLL, str(ol_level), log_file=log_file)
+
+        if publish_il_level:
+            publish(client, ILL, str(il_level), log_file=log_file)
+
         sleep(1)
-        print(ol_level)
+
 
 if __name__ == '__main__':
     run()
