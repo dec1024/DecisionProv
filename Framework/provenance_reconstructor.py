@@ -1,10 +1,14 @@
 import shutil
 import os
 import re
+import json
 from collections import Counter
 
 import prov.model as prov
+from prov.dot import prov_to_dot
+
 from link_neo4j import save_document
+from prov.graph import prov_to_graph, graph_to_prov
 
 
 def strip_reconstructor(original_path):
@@ -32,7 +36,7 @@ def parsed_action(action, event_type):
     return {"Text": action}
 
 
-def logged_events(file_path="./Data/events.log"):
+def logged_events(file_path="../Data/events.log"):
     shutil.copyfile(file_path, "./events.log")
     strip_reconstructor("./events.log")
 
@@ -45,13 +49,13 @@ def logged_events(file_path="./Data/events.log"):
             for event in lines]
 
 
-def sequence_last_n(outflow, n=3):
+def sequence_last_n(outflow, n):
     position = outflow["position"]
     bottom = max(position - n, 0)
     return bottom, position
 
 
-def data_flows(events, last_n_determiner):
+def data_flows(events, last_n_determiner, n):
     inflows_count = 0
     inflows = []
     outflows = []
@@ -67,7 +71,7 @@ def data_flows(events, last_n_determiner):
 
     # Get last n inflows for each outflow
     for outflow in outflows:
-        bottom, top = last_n_determiner(outflow)
+        bottom, top = last_n_determiner(outflow, n)
         outflow["last_n"] = inflows[bottom:top]
 
     return inflows, outflows
@@ -100,7 +104,8 @@ def preceding_probabilities(inflows, outflows, n):
         last_n = outflow["last_n"]
         last_n_items = list(entry["action"]["Item"] for entry in last_n)
         for i, inflow_item in enumerate(last_n_items):
-            items_frequencies[outflow_item][inflow_item] += n + 1 - i
+            score = n - i
+            items_frequencies[outflow_item][inflow_item] += score
 
     # get prob table
     items_probs = {}
@@ -121,8 +126,8 @@ def allowed_items(probs, boundary):
 
 
 # Produce provenance graph
-def infer_provenance(events, probs, boundary, document):
-    _, outflows = data_flows(events, sequence_last_n)
+def infer_provenance(events, probs, boundary, document, n):
+    _, outflows = data_flows(events, sequence_last_n, n)
     allowed = allowed_items(probs, boundary)
     entities = set()
     # print(allowed)
@@ -150,29 +155,44 @@ def infer_provenance(events, probs, boundary, document):
             activity.used(entity_name)
 
 
-def create_prov_graph():
+def create_prov_graph(n=3):
     document = prov.ProvDocument()
     document.set_default_namespace('')
 
     events = logged_events()
-    inflows, outflows = data_flows(events, sequence_last_n)
-    probs = preceding_probabilities(inflows, outflows, 5)
+    inflows, outflows = data_flows(events, sequence_last_n, n)
+    probs = preceding_probabilities(inflows, outflows, n)
+    with open("../Evaluation/data.json", "w") as f:
+        json.dump(probs, f)
+    print(probs)
 
     agents_in, agents_out = unique_items(inflows, outflows)
 
     agents = agents_in.union(agents_out)
 
-    print(agents)
     for agent in agents:
         document.agent(agent)
 
-    infer_provenance(events, probs, 0.2, document)
+    print(events)
+    infer_provenance(events, probs, 0.1, document, n)
 
-    # dot = prov_to_dot(document)
-    # dot.write_png("reconstructed.png")
+    dot = prov_to_dot(document)
+    dot.write_png("reconstructed.png")
+    id = save_document(document)
 
-    document_id = save_document(document)
+    return events, probs
 
 
 if __name__ == '__main__':
-    create_prov_graph()
+    events, probs = create_prov_graph(3)
+
+    while True:
+        start = int(input("Starting position in events"))
+        end = int(input("Ending position in events"))
+
+        new_document = prov.ProvDocument()
+        new_document.set_default_namespace('')
+        infer_provenance(events[start:end], probs, 0.1, new_document, 3)
+        dot = prov_to_dot(new_document)
+        dot.write_png("reconstructed.png")
+        print("Picture saved!")

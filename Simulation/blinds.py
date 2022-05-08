@@ -3,10 +3,9 @@ import threading
 from time import sleep
 from enum import Enum
 
-from simulation_utilities import connect_mqtt, publish
 from paho.mqtt import client as mqtt_client
 from threading import Thread
-
+from Simulation.simulation_utilities import connect_mqtt, publish
 
 class Switch(Enum):
     OFF = 0
@@ -41,6 +40,8 @@ def subscribe_light(client: mqtt_client, msg):
         light_state = 1
     else:
         light_state = 0
+
+    publish(client, ILL, str(inside_light_level()), log_file=log_file)
 
     if inside_light_level() < 18 and light_state == 0:
         publish(client, LSS, "ON", log_file=log_file)

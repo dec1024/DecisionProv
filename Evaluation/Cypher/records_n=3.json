@@ -1,0 +1,412 @@
+﻿[
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 07:59:38.318",
+    "ill.To": "0",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 07:59:38.340"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:00:15.474",
+    "ill.To": "14",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:00:15.488"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:00:15.345",
+    "ill.To": "24",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:00:15.488"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:00:24.377",
+    "ill.To": "13",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:00:24.477"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:00:22.468",
+    "ill.To": "18",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:00:24.477"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:00:29.538",
+    "ill.To": "5",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:00:29.543"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:00:29.392",
+    "ill.To": "15",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:00:29.543"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:00:34.596",
+    "ill.To": "2",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:00:34.743"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:00:34.444",
+    "ill.To": "12",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:00:34.743"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:00:40.492",
+    "ill.To": "11",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:00:40.527"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:00:40.428",
+    "ill.To": "21",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:00:40.527"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:00:47.632",
+    "ill.To": "0",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:00:47.638"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:00:47.480",
+    "ill.To": "10",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:00:47.638"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:00:58.692",
+    "ill.To": "13",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:00:58.730"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:01:09.887",
+    "ill.To": "0",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:01:09.982"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:01:09.591",
+    "ill.To": "10",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:01:09.982"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:01:09.887",
+    "ill.To": "0",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:01:10.144"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:01:09.591",
+    "ill.To": "10",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:01:10.144"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:01:22.880",
+    "ill.To": "2",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:01:22.893"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:01:22.784",
+    "ill.To": "12",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:01:22.893"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:01:39.933",
+    "ill.To": "0",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:01:39.934"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:01:39.685",
+    "ill.To": "10",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:01:39.934"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:02:05.834",
+    "ill.To": "2",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:02:05.836"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:02:05.781",
+    "ill.To": "12",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:02:05.836"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:02:05.834",
+    "ill.To": "2",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:02:05.880"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:02:05.834",
+    "ill.To": "2",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:02:05.880"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:02:19.991",
+    "ill.To": "16",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:02:20.032"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:02:19.833",
+    "ill.To": "26",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:02:20.032"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:02:24.894",
+    "ill.To": "14",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:02:24.984"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:02:24.832",
+    "ill.To": "24",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:02:24.984"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:02:24.894",
+    "ill.To": "14",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:02:24.991"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:02:30.891",
+    "ill.To": "7",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:02:30.935"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:02:30.832",
+    "ill.To": "17",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:02:30.935"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:02:35.935",
+    "ill.To": "0",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:02:35.944"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:02:42.075",
+    "ill.To": "2",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:02:42.079"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:02:41.879",
+    "ill.To": "12",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:02:42.079"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:02:42.075",
+    "ill.To": "2",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:02:42.120"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:02:42.075",
+    "ill.To": "2",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:02:42.120"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:02:59.031",
+    "ill.To": "17",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:02:59.038"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:03:07.189",
+    "ill.To": "0",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:03:07.194"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:03:06.986",
+    "ill.To": "10",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:03:07.194"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:03:36.116",
+    "ill.To": "6",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:03:36.121"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:03:36.075",
+    "ill.To": "16",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:03:36.121"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:03:47.220",
+    "ill.To": "11",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:03:47.227"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:03:52.270",
+    "ill.To": "0",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:03:52.275"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:04:49.416",
+    "ill.To": "0",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:04:49.427"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:04:49.351",
+    "ill.To": "18",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:04:49.427"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:05:06.411",
+    "ill.To": "11",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:05:06.417"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:05:06.389",
+    "ill.To": "21",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:05:06.417"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:05:11.421",
+    "ill.To": "10",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:05:11.424"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:05:11.402",
+    "ill.To": "20",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:05:11.424"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:05:27.473",
+    "ill.To": "15",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:05:27.479"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:05:27.447",
+    "ill.To": "25",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:05:27.479"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:05:37.536",
+    "ill.To": "0",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:05:37.538"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:05:37.513",
+    "ill.To": "10",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:05:37.538"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:06:03.671",
+    "ill.To": "0",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:06:03.676"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:06:03.634",
+    "ill.To": "10",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:06:03.676"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:06:08.630",
+    "ill.To": "15",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:06:08.636"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:06:08.600",
+    "ill.To": "25",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:06:08.636"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:06:20.656",
+    "ill.To": "0",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:06:20.664"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:06:20.638",
+    "ill.To": "10",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:06:20.664"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:06:28.683",
+    "ill.To": "17",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:06:28.687"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:06:28.664",
+    "ill.To": "27",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:06:28.687"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:06:32.700",
+    "ill.To": "11",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:06:32.702"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:06:32.685",
+    "ill.To": "21",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:06:32.702"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:06:40.747",
+    "ill.To": "11",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:06:40.751"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:06:40.735",
+    "ill.To": "10",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:06:40.751"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:06:45.746",
+    "ill.To": "5",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:06:45.749"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:06:45.733",
+    "ill.To": "15",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:06:45.749"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:07:08.880",
+    "ill.To": "0",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:07:08.884"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:07:08.845",
+    "ill.To": "10",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:07:08.884"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:07:19.886",
+    "ill.To": "0",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:07:19.892"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:07:19.857",
+    "ill.To": "10",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:07:19.892"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:07:46.994",
+    "ill.To": "0",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:07:46.999"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:07:46.983",
+    "ill.To": "10",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:07:46.999"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:08:41.239",
+    "ill.To": "9",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:08:41.240"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:08:41.153",
+    "ill.To": "19",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:08:41.240"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:08:51.361",
+    "ill.To": "0",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:08:51.362"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:09:01.313",
+    "ill.To": "13",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:09:01.343"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:09:01.247",
+    "ill.To": "23",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:09:01.343"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:09:12.509",
+    "ill.To": "1",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:09:12.551"
+  },
+  {
+    "ill.`meta:identifier`": "Reading from InsideLightLevel at 2022-05-02 08:09:12.508",
+    "ill.To": "22",
+    "n.`meta:identifier`": "Send ON to LightBulb_LightState at 2022-05-02 08:09:12.551"
+  }
+]

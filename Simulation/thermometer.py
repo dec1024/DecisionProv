@@ -3,9 +3,9 @@ import threading
 from time import sleep
 from enum import Enum
 
-from simulation_utilities import connect_mqtt, publish
 from paho.mqtt import client as mqtt_client
 from threading import Thread
+from Simulation.simulation_utilities import connect_mqtt, publish
 
 ITL = "sim1/ITL"
 WS = "sim1/WS"

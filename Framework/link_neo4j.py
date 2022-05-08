@@ -12,11 +12,11 @@ auth_info = {"user_name": NEO4J_USER,
              "host": NEO4J_HOST + ":" + NEO4J_BOLT_PORT
              }
 
-# create the api
-prov_api = ProvDb(adapter=Neo4jAdapter, auth_info=auth_info)
-
 
 def save_document(document):
+    # create the api
+    prov_api = ProvDb(adapter=Neo4jAdapter, auth_info=auth_info)
+
     print("Saving document")
     document_id = prov_api.save_document(document)
     print("Document Saved!")

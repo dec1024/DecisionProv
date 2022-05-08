@@ -5,14 +5,15 @@ import requests
 import prov.model as prov
 from prov.dot import prov_to_dot
 
-from mqtt import _MQTT
-from link_neo4j import save_document
+from Framework.mqtt import _MQTT
+from Framework.link_neo4j import save_document
 
 document = prov.ProvDocument()
 
+
 class ProvenanceMonitor:
     def __init__(self):
-        self.token = "oh.Monitor.LtfJqewJBMHQzgz0bLRX8goIYRdtBYmNHHIWRJFsqGVUhm7BxIBSqR17FGpSKeDD2Y75fhd4uVnmKgX0MyQ"
+        self.token = "oh.Monitor2.SVDTXMDxvT7YPuag00BYGov8AzeDRhjMLa5kaMPhIV4WJLy8x18R93cpStkRkkq5uhoTRopz4vjSgU3ckU95A"
         self.rulesURL = "http://localhost:8080/rest/rules"
         self.itemsURL = "http://localhost:8080/rest/items"
 
@@ -24,7 +25,7 @@ class ProvenanceMonitor:
         print(self.items)
         document.set_default_namespace('')
         self.entities = set()
-
+        print(self.items)
         self.agents = {item["name"]: document.agent(item['name']) for item in self.items}
 
     def _get_state(self, item: str):
@@ -41,22 +42,31 @@ class ProvenanceMonitor:
         pass
 
 
+def get_document():
+    return document
+
+
 class DirectedProvenanceMonitor(ProvenanceMonitor):
     def __init__(self):
         super().__init__()
         # Find prov-enabled commands
         self.commands = []
+        print(f"rules: {self.rules}")
         for rule in self.rules:
             for action in rule["actions"]:
-                if action["configuration"]["itemName"] == "ProvRuleNotification":
+                if action["configuration"]["itemName"] == "ProvRuleNotification" or action["configuration"]["itemName"] == "ProvRuleNotification_ProvRuleNotification":
                     self.commands.append(action["configuration"]["command"])
+
+        print(f"Commands: {self.commands}")
 
         # Match commands with their rules
         self.rule_matches = {}
         for i in range(len(self.commands)):
             self.rule_matches[self.commands[i]] = self.rules[i]
 
+        print('dfgsfd')
         print(self.rule_matches)
+        print('sdfs')
 
         _MQTT(self._on_message)
 
@@ -86,8 +96,9 @@ class DirectedProvenanceMonitor(ProvenanceMonitor):
 
     def _actions_prov(self, actions, rule_activity):
         for action in actions:
+            # print(action)
             item_associated_with = action["configuration"]["itemName"]
-            if item_associated_with == "ProvRuleNotification":
+            if item_associated_with == "ProvRuleNotification" or item_associated_with == "ProvRuleNotification_ProvRuleNotification":
                 continue
             attributes = {}
             match action["type"]:
@@ -100,7 +111,7 @@ class DirectedProvenanceMonitor(ProvenanceMonitor):
     def _on_message(self, client, userdata, msg):
         message = msg.payload.decode()
         print(f"Received `{msg.payload.decode()}` from `{msg.topic}` topic")
-
+        print(self.rule_matches)
         rule = self.rule_matches[message]
 
         triggers = rule["triggers"]
@@ -133,4 +144,3 @@ if __name__ == '__main__':
         input()
         print(document.get_provn())
         save_document(document)
-
