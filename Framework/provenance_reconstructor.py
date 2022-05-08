@@ -36,7 +36,7 @@ def parsed_action(action, event_type):
     return {"Text": action}
 
 
-def logged_events(file_path="../Data/events.log"):
+def logged_events(file_path="../Events/events.log"):
     shutil.copyfile(file_path, "./events.log")
     strip_reconstructor("./events.log")
 
