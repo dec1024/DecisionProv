@@ -1,0 +1,942 @@
+2022-05-08 19:36:57.696 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from NULL to NEUTRAL
+2022-05-08 19:36:58.684 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 20.0 to 15
+2022-05-08 19:36:58.704 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command OPEN
+2022-05-08 19:36:58.706 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become OPEN
+2022-05-08 19:36:58.745 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Open Blind
+2022-05-08 19:36:58.752 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from NULL to OPEN
+2022-05-08 19:36:58.760 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Open Blind
+2022-05-08 19:36:58.767 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from NULL to Open Blind
+2022-05-08 19:37:00.680 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 10.0 to 30
+2022-05-08 19:37:00.688 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:37:00.702 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:37:00.703 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:37:00.729 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:37:00.748 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from NULL to OFF
+2022-05-08 19:37:00.751 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 30 to 20
+2022-05-08 19:37:00.760 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Open Blind to Light Off_Sensor
+2022-05-08 19:37:00.782 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:37:00.794 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:37:00.798 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:37:00.801 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:37:01.036 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from NULL to NEUTRAL
+2022-05-08 19:37:01.053 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 26.0 to 7.5
+2022-05-08 19:37:01.078 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'WindowState' received command CLOSED
+2022-05-08 19:37:01.084 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Close Window
+2022-05-08 19:37:01.099 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'RadiatorDial' received command INCREASE
+2022-05-08 19:37:01.106 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Increase Temperature
+2022-05-08 19:37:01.109 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'WindowState' predicted to become CLOSED
+2022-05-08 19:37:01.117 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Close Window
+2022-05-08 19:37:01.118 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'RadiatorDial' predicted to become INCREASE
+2022-05-08 19:37:01.120 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Increase Temperature
+2022-05-08 19:37:01.128 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WindowState' changed from NULL to CLOSED
+2022-05-08 19:37:01.128 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Close Window
+2022-05-08 19:37:01.129 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from NEUTRAL to INCREASE
+2022-05-08 19:37:01.129 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Close Window to Increase Temperature
+2022-05-08 19:37:01.435 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from NULL to ENGAGED
+2022-05-08 19:37:02.439 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:37:03.694 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 20 to 6
+2022-05-08 19:37:03.698 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:37:03.703 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:37:03.705 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:37:03.717 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:37:03.722 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Increase Temperature to Light Off_Sensor
+2022-05-08 19:37:03.727 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from NEUTRAL to ON
+2022-05-08 19:37:03.734 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command ON
+2022-05-08 19:37:03.740 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become ON
+2022-05-08 19:37:03.754 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light On_Switch
+2022-05-08 19:37:03.758 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from OFF to ON
+2022-05-08 19:37:03.760 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light On_Switch
+2022-05-08 19:37:03.775 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Light On_Switch
+2022-05-08 19:37:03.777 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 6 to 16
+2022-05-08 19:37:06.709 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from ON to NEUTRAL
+2022-05-08 19:37:08.715 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 15 to 4
+2022-05-08 19:37:08.728 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command CLOSED
+2022-05-08 19:37:08.731 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Close Blind
+2022-05-08 19:37:08.733 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become CLOSED
+2022-05-08 19:37:08.738 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Close Blind
+2022-05-08 19:37:08.760 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from OPEN to CLOSED
+2022-05-08 19:37:08.765 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light On_Switch to Close Blind
+2022-05-08 19:37:09.470 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:37:10.477 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:37:11.483 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:37:11.733 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 16 to 10
+2022-05-08 19:37:11.744 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:37:11.758 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:37:11.759 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:37:11.767 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:37:11.781 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from ON to OFF
+2022-05-08 19:37:11.785 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Close Blind to Light Off_Sensor
+2022-05-08 19:37:11.787 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 10 to 0
+2022-05-08 19:37:11.788 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from NEUTRAL to ON
+2022-05-08 19:37:11.808 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command ON
+2022-05-08 19:37:11.827 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light On_Switch
+2022-05-08 19:37:11.834 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become ON
+2022-05-08 19:37:11.838 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light On_Switch
+2022-05-08 19:37:11.839 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from OFF to ON
+2022-05-08 19:37:11.840 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 0 to 10
+2022-05-08 19:37:11.842 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Light On_Switch
+2022-05-08 19:37:12.066 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 7.5 to 15
+2022-05-08 19:37:12.490 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:37:12.490 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from 6.832887004748845 to 12.418967669875052
+2022-05-08 19:37:13.070 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 15 to 15.666666666666666
+2022-05-08 19:37:14.740 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 4 to 1
+2022-05-08 19:37:14.748 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from ON to NEUTRAL
+2022-05-08 19:37:16.504 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:37:17.087 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 15.666666666666666 to 16.666666666666668
+2022-05-08 19:37:17.510 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:37:17.510 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:37:18.514 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:37:19.097 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 16.666666666666668 to 19.666666666666668
+2022-05-08 19:37:19.521 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'SmartAssistant_On' changed from NULL to ON
+2022-05-08 19:37:20.524 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'SmartAssistant_On' changed from ON to OFF
+2022-05-08 19:37:24.545 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from 12.418967669875052 to -0.3129056342152676
+2022-05-08 19:37:27.796 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 1 to 16
+2022-05-08 19:37:27.800 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command OPEN
+2022-05-08 19:37:27.802 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Open Blind
+2022-05-08 19:37:27.806 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become OPEN
+2022-05-08 19:37:27.816 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Open Blind
+2022-05-08 19:37:27.825 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from CLOSED to OPEN
+2022-05-08 19:37:27.826 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light On_Switch to Open Blind
+2022-05-08 19:37:28.565 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:37:28.798 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 16 to 17
+2022-05-08 19:37:29.139 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 19.666666666666668 to 29.666666666666668
+2022-05-08 19:37:29.148 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'RadiatorDial' received command NEUTRAL
+2022-05-08 19:37:29.162 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Neutral Temperature
+2022-05-08 19:37:29.169 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'WindowState' received command OPEN
+2022-05-08 19:37:29.182 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Open Window
+2022-05-08 19:37:29.186 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'RadiatorDial' predicted to become NEUTRAL
+2022-05-08 19:37:29.199 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Neutral Temperature
+2022-05-08 19:37:29.200 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'WindowState' predicted to become OPEN
+2022-05-08 19:37:29.207 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Open Window
+2022-05-08 19:37:29.209 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from INCREASE to NEUTRAL
+2022-05-08 19:37:29.210 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Open Blind to Neutral Temperature
+2022-05-08 19:37:29.211 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WindowState' changed from CLOSED to OPEN
+2022-05-08 19:37:29.220 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Neutral Temperature to Open Window
+2022-05-08 19:37:29.576 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:37:29.577 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from -0.3129056342152676 to -5.479540779661914
+2022-05-08 19:37:29.804 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 17 to 5
+2022-05-08 19:37:29.811 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command CLOSED
+2022-05-08 19:37:29.818 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Close Blind
+2022-05-08 19:37:29.822 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become CLOSED
+2022-05-08 19:37:29.824 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Close Blind
+2022-05-08 19:37:29.828 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 10 to 15
+2022-05-08 19:37:29.835 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from OPEN to CLOSED
+2022-05-08 19:37:29.837 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Open Window to Close Blind
+2022-05-08 19:37:29.844 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:37:29.858 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:37:29.861 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:37:29.864 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:37:29.866 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from ON to OFF
+2022-05-08 19:37:29.867 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 15 to 0
+2022-05-08 19:37:29.874 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from NEUTRAL to ON
+2022-05-08 19:37:29.879 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command ON
+2022-05-08 19:37:29.884 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light On_Switch
+2022-05-08 19:37:29.886 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Close Blind to Light Off_Sensor
+2022-05-08 19:37:29.887 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become ON
+2022-05-08 19:37:29.890 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light On_Switch
+2022-05-08 19:37:29.893 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from OFF to ON
+2022-05-08 19:37:29.895 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Light On_Switch
+2022-05-08 19:37:29.899 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 0 to 10
+2022-05-08 19:37:30.811 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 5 to 11
+2022-05-08 19:37:30.817 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command OPEN
+2022-05-08 19:37:30.818 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Open Blind
+2022-05-08 19:37:30.819 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become OPEN
+2022-05-08 19:37:30.831 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Open Blind
+2022-05-08 19:37:30.832 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from CLOSED to OPEN
+2022-05-08 19:37:30.833 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light On_Switch to Open Blind
+2022-05-08 19:37:32.858 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from ON to NEUTRAL
+2022-05-08 19:37:34.828 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 10 to 22
+2022-05-08 19:37:34.839 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:37:34.845 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:37:34.846 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:37:34.866 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:37:34.870 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from ON to OFF
+2022-05-08 19:37:34.876 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 22 to 12
+2022-05-08 19:37:34.888 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from NEUTRAL to ON
+2022-05-08 19:37:34.903 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command ON
+2022-05-08 19:37:34.911 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light On_Switch
+2022-05-08 19:37:34.927 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Open Blind to Light Off_Sensor
+2022-05-08 19:37:34.928 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become ON
+2022-05-08 19:37:34.943 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light On_Switch
+2022-05-08 19:37:34.946 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from OFF to ON
+2022-05-08 19:37:34.949 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 12 to 22
+2022-05-08 19:37:34.957 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Light On_Switch
+2022-05-08 19:37:36.595 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from -5.479540779661914 to 13.38327669851668
+2022-05-08 19:37:37.600 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:37:37.846 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from ON to NEUTRAL
+2022-05-08 19:37:38.614 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:37:38.848 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 11 to 7
+2022-05-08 19:37:38.859 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command CLOSED
+2022-05-08 19:37:38.862 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Close Blind
+2022-05-08 19:37:38.864 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become CLOSED
+2022-05-08 19:37:38.870 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Close Blind
+2022-05-08 19:37:38.894 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from OPEN to CLOSED
+2022-05-08 19:37:38.899 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light On_Switch to Close Blind
+2022-05-08 19:37:39.849 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 22 to 10
+2022-05-08 19:37:39.856 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:37:39.861 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:37:39.862 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:37:39.875 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:37:39.879 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from ON to OFF
+2022-05-08 19:37:39.882 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 10 to 0
+2022-05-08 19:37:39.883 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from NEUTRAL to ON
+2022-05-08 19:37:39.893 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command ON
+2022-05-08 19:37:39.906 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light On_Switch
+2022-05-08 19:37:39.907 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Close Blind to Light Off_Sensor
+2022-05-08 19:37:39.911 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become ON
+2022-05-08 19:37:39.929 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light On_Switch
+2022-05-08 19:37:39.933 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from OFF to ON
+2022-05-08 19:37:39.945 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 0 to 10
+2022-05-08 19:37:39.946 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Light On_Switch
+2022-05-08 19:37:41.179 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 29.666666666666668 to 21.5
+2022-05-08 19:37:41.857 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 7 to 19
+2022-05-08 19:37:41.864 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command OPEN
+2022-05-08 19:37:41.868 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Open Blind
+2022-05-08 19:37:41.872 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become OPEN
+2022-05-08 19:37:41.874 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Open Blind
+2022-05-08 19:37:41.879 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from CLOSED to OPEN
+2022-05-08 19:37:41.880 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light On_Switch to Open Blind
+2022-05-08 19:37:42.184 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 21.5 to 19
+2022-05-08 19:37:42.865 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from ON to NEUTRAL
+2022-05-08 19:37:43.629 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:37:44.639 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:37:46.204 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 19 to 14
+2022-05-08 19:37:46.213 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'WindowState' received command CLOSED
+2022-05-08 19:37:46.226 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Close Window
+2022-05-08 19:37:46.227 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'WindowState' predicted to become CLOSED
+2022-05-08 19:37:46.231 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Close Window
+2022-05-08 19:37:46.232 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WindowState' changed from OPEN to CLOSED
+2022-05-08 19:37:46.255 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Open Blind to Close Window
+2022-05-08 19:37:46.878 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 10 to 29
+2022-05-08 19:37:46.885 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:37:46.886 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:37:46.889 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:37:46.895 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:37:46.900 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from ON to OFF
+2022-05-08 19:37:46.907 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Close Window to Light Off_Sensor
+2022-05-08 19:37:46.911 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 29 to 19
+2022-05-08 19:37:46.915 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:37:46.918 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:37:46.923 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:37:46.929 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:37:48.209 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 14 to 18.666666666666668
+2022-05-08 19:37:52.655 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:37:53.661 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:37:54.666 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from 13.38327669851668 to 0.2259655586544076
+2022-05-08 19:37:56.680 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from 0.2259655586544076 to 11.736576867678544
+2022-05-08 19:37:56.680 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'SmartAssistant_On' changed from OFF to ON
+2022-05-08 19:37:56.933 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 19 to 2
+2022-05-08 19:37:56.946 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command ON
+2022-05-08 19:37:56.964 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light On_Sensor
+2022-05-08 19:37:56.968 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become ON
+2022-05-08 19:37:56.979 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light On_Sensor
+2022-05-08 19:37:56.991 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from OFF to ON
+2022-05-08 19:37:56.993 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Light On_Sensor
+2022-05-08 19:37:56.995 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 2 to 12
+2022-05-08 19:37:57.008 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:37:57.009 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:37:57.014 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:37:57.026 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:37:57.037 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from ON to OFF
+2022-05-08 19:37:57.051 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light On_Sensor to Light Off_Sensor
+2022-05-08 19:37:57.053 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 12 to 2
+2022-05-08 19:37:57.054 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from NEUTRAL to ON
+2022-05-08 19:37:57.060 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command ON
+2022-05-08 19:37:57.071 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light On_Switch
+2022-05-08 19:37:57.071 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become ON
+2022-05-08 19:37:57.075 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light On_Switch
+2022-05-08 19:37:57.078 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from OFF to ON
+2022-05-08 19:37:57.079 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Light On_Switch
+2022-05-08 19:37:57.081 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 2 to 12
+2022-05-08 19:37:57.247 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 18.666666666666668 to 22
+2022-05-08 19:37:57.258 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'WindowState' received command OPEN
+2022-05-08 19:37:57.258 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Open Window
+2022-05-08 19:37:57.267 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'WindowState' predicted to become OPEN
+2022-05-08 19:37:57.268 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Open Window
+2022-05-08 19:37:57.279 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WindowState' changed from CLOSED to OPEN
+2022-05-08 19:37:57.280 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light On_Switch to Open Window
+2022-05-08 19:37:57.680 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'SmartAssistant_On' changed from ON to OFF
+2022-05-08 19:37:57.931 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 19 to 2
+2022-05-08 19:37:57.937 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command CLOSED
+2022-05-08 19:37:57.944 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Close Blind
+2022-05-08 19:37:57.945 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become CLOSED
+2022-05-08 19:37:57.950 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Close Blind
+2022-05-08 19:37:57.951 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from OPEN to CLOSED
+2022-05-08 19:37:57.951 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Open Window to Close Blind
+2022-05-08 19:37:58.685 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:37:59.689 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:38:00.018 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from ON to NEUTRAL
+2022-05-08 19:38:00.256 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 22 to 16.5
+2022-05-08 19:38:03.952 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 12 to 10
+2022-05-08 19:38:03.956 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:38:03.960 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:38:03.961 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:38:03.971 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:38:03.972 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from ON to OFF
+2022-05-08 19:38:03.975 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Close Blind to Light Off_Sensor
+2022-05-08 19:38:03.986 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 10 to 0
+2022-05-08 19:38:03.988 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from NEUTRAL to ON
+2022-05-08 19:38:03.996 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command ON
+2022-05-08 19:38:04.016 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light On_Switch
+2022-05-08 19:38:04.017 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become ON
+2022-05-08 19:38:04.020 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light On_Switch
+2022-05-08 19:38:04.022 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from OFF to ON
+2022-05-08 19:38:04.023 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Light On_Switch
+2022-05-08 19:38:04.035 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 0 to 10
+2022-05-08 19:38:05.715 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'SmartAssistant_On' changed from OFF to ON
+2022-05-08 19:38:06.719 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'SmartAssistant_On' changed from ON to OFF
+2022-05-08 19:38:06.964 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from ON to NEUTRAL
+2022-05-08 19:38:06.968 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 2 to 4
+2022-05-08 19:38:10.737 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'SmartAssistant_On' changed from OFF to ON
+2022-05-08 19:38:12.746 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'SmartAssistant_On' changed from ON to OFF
+2022-05-08 19:38:14.305 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 16.5 to 14
+2022-05-08 19:38:14.309 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'WindowState' received command CLOSED
+2022-05-08 19:38:14.313 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Close Window
+2022-05-08 19:38:14.316 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'WindowState' predicted to become CLOSED
+2022-05-08 19:38:14.318 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Close Window
+2022-05-08 19:38:14.323 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WindowState' changed from OPEN to CLOSED
+2022-05-08 19:38:14.335 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light On_Switch to Close Window
+2022-05-08 19:38:14.754 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:38:15.309 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 14 to 18.666666666666668
+2022-05-08 19:38:15.759 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:38:18.773 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from 11.736576867678544 to 9.517282080441314
+2022-05-08 19:38:19.013 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 4 to 17
+2022-05-08 19:38:19.019 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command OPEN
+2022-05-08 19:38:19.019 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Open Blind
+2022-05-08 19:38:19.031 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become OPEN
+2022-05-08 19:38:19.034 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Open Blind
+2022-05-08 19:38:19.035 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from CLOSED to OPEN
+2022-05-08 19:38:19.037 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Close Window to Open Blind
+2022-05-08 19:38:20.017 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 10 to 14
+2022-05-08 19:38:20.025 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:38:20.026 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:38:20.033 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:38:20.035 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:38:20.043 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from ON to OFF
+2022-05-08 19:38:20.044 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Open Blind to Light Off_Sensor
+2022-05-08 19:38:20.044 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 14 to 4
+2022-05-08 19:38:20.045 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from NEUTRAL to ON
+2022-05-08 19:38:20.051 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command ON
+2022-05-08 19:38:20.059 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light On_Switch
+2022-05-08 19:38:20.059 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become ON
+2022-05-08 19:38:20.062 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light On_Switch
+2022-05-08 19:38:20.066 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from OFF to ON
+2022-05-08 19:38:20.067 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Light On_Switch
+2022-05-08 19:38:20.068 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 4 to 14
+2022-05-08 19:38:22.026 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 14 to 15
+2022-05-08 19:38:23.035 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from ON to NEUTRAL
+2022-05-08 19:38:24.036 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 17 to 19
+2022-05-08 19:38:25.349 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 18.666666666666668 to 20.333333333333332
+2022-05-08 19:38:25.355 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'WindowState' received command OPEN
+2022-05-08 19:38:25.356 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Open Window
+2022-05-08 19:38:25.359 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'WindowState' predicted to become OPEN
+2022-05-08 19:38:25.365 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Open Window
+2022-05-08 19:38:25.367 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WindowState' changed from CLOSED to OPEN
+2022-05-08 19:38:25.370 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light On_Switch to Open Window
+2022-05-08 19:38:26.045 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 19 to 5
+2022-05-08 19:38:26.052 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command CLOSED
+2022-05-08 19:38:26.056 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Close Blind
+2022-05-08 19:38:26.056 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become CLOSED
+2022-05-08 19:38:26.059 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Close Blind
+2022-05-08 19:38:26.061 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from OPEN to CLOSED
+2022-05-08 19:38:26.063 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Open Window to Close Blind
+2022-05-08 19:38:27.047 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 5 to 14
+2022-05-08 19:38:27.047 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command OPEN
+2022-05-08 19:38:27.060 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Open Blind
+2022-05-08 19:38:27.062 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become OPEN
+2022-05-08 19:38:27.062 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Open Blind
+2022-05-08 19:38:27.069 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from CLOSED to OPEN
+2022-05-08 19:38:27.070 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Close Blind to Open Blind
+2022-05-08 19:38:28.052 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 15 to 11
+2022-05-08 19:38:28.056 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:38:28.062 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:38:28.064 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:38:28.068 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:38:28.073 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from ON to OFF
+2022-05-08 19:38:28.074 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 11 to 1
+2022-05-08 19:38:28.075 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Open Blind to Light Off_Sensor
+2022-05-08 19:38:28.078 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from NEUTRAL to ON
+2022-05-08 19:38:28.087 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command ON
+2022-05-08 19:38:28.097 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light On_Switch
+2022-05-08 19:38:28.099 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become ON
+2022-05-08 19:38:28.101 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light On_Switch
+2022-05-08 19:38:28.103 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from OFF to ON
+2022-05-08 19:38:28.104 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 1 to 11
+2022-05-08 19:38:28.107 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Light On_Switch
+2022-05-08 19:38:30.825 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:38:31.069 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 11 to 10
+2022-05-08 19:38:31.071 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from ON to NEUTRAL
+2022-05-08 19:38:31.375 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 20.333333333333332 to 21.5
+2022-05-08 19:38:31.833 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:38:31.834 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:38:32.835 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:38:34.080 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 14 to 1
+2022-05-08 19:38:34.091 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command CLOSED
+2022-05-08 19:38:34.104 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Close Blind
+2022-05-08 19:38:34.107 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become CLOSED
+2022-05-08 19:38:34.116 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Close Blind
+2022-05-08 19:38:34.119 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from OPEN to CLOSED
+2022-05-08 19:38:34.120 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light On_Switch to Close Blind
+2022-05-08 19:38:34.382 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 21.5 to 24
+2022-05-08 19:38:35.082 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 1 to 2
+2022-05-08 19:38:36.852 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:38:37.858 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:38:37.859 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:38:38.864 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:38:40.868 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:38:41.409 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from NEUTRAL to DECREASE
+2022-05-08 19:38:41.869 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:38:46.432 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 24 to 29.5
+2022-05-08 19:38:46.438 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'RadiatorDial' received command NEUTRAL
+2022-05-08 19:38:46.441 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Neutral Temperature
+2022-05-08 19:38:46.448 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'RadiatorDial' predicted to become NEUTRAL
+2022-05-08 19:38:46.452 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Neutral Temperature
+2022-05-08 19:38:46.454 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from DECREASE to NEUTRAL
+2022-05-08 19:38:46.468 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Close Blind to Neutral Temperature
+2022-05-08 19:38:47.432 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from NEUTRAL to DECREASE
+2022-05-08 19:38:47.436 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 29.5 to 31.5
+2022-05-08 19:38:47.440 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'RadiatorDial' received command NEUTRAL
+2022-05-08 19:38:47.442 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Neutral Temperature
+2022-05-08 19:38:47.444 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'RadiatorDial' predicted to become NEUTRAL
+2022-05-08 19:38:47.453 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Neutral Temperature
+2022-05-08 19:38:47.455 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from DECREASE to NEUTRAL
+2022-05-08 19:38:51.445 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 31.5 to 24
+2022-05-08 19:38:58.926 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from 9.517282080441314 to -1.9254786992814097
+2022-05-08 19:39:02.486 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 24 to 26.5
+2022-05-08 19:39:03.187 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 2 to 14
+2022-05-08 19:39:03.187 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command OPEN
+2022-05-08 19:39:03.196 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Open Blind
+2022-05-08 19:39:03.197 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become OPEN
+2022-05-08 19:39:03.199 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Open Blind
+2022-05-08 19:39:03.207 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from CLOSED to OPEN
+2022-05-08 19:39:03.209 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Neutral Temperature to Open Blind
+2022-05-08 19:39:04.953 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:39:05.193 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 14 to 16
+2022-05-08 19:39:05.196 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 10 to 26
+2022-05-08 19:39:05.202 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:39:05.211 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:39:05.213 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:39:05.228 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:39:05.231 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from ON to OFF
+2022-05-08 19:39:05.234 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 26 to 16
+2022-05-08 19:39:05.243 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from NEUTRAL to ON
+2022-05-08 19:39:05.251 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command ON
+2022-05-08 19:39:05.261 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light On_Switch
+2022-05-08 19:39:05.264 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Open Blind to Light Off_Sensor
+2022-05-08 19:39:05.283 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become ON
+2022-05-08 19:39:05.287 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light On_Switch
+2022-05-08 19:39:05.292 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from OFF to ON
+2022-05-08 19:39:05.293 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Light On_Switch
+2022-05-08 19:39:05.295 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 16 to 26
+2022-05-08 19:39:05.500 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 26.5 to 29
+2022-05-08 19:39:05.958 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:39:06.502 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from NEUTRAL to DECREASE
+2022-05-08 19:39:06.962 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from -1.9254786992814097 to 15.193682470636592
+2022-05-08 19:39:08.209 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 16 to 19
+2022-05-08 19:39:08.210 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from ON to NEUTRAL
+2022-05-08 19:39:08.976 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from 15.193682470636592 to 16.85229695450554
+2022-05-08 19:39:10.224 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 19 to 15
+2022-05-08 19:39:14.536 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 29 to 28
+2022-05-08 19:39:14.544 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'RadiatorDial' received command NEUTRAL
+2022-05-08 19:39:14.547 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Neutral Temperature
+2022-05-08 19:39:14.550 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'RadiatorDial' predicted to become NEUTRAL
+2022-05-08 19:39:14.559 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Neutral Temperature
+2022-05-08 19:39:14.564 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from DECREASE to NEUTRAL
+2022-05-08 19:39:14.566 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light On_Switch to Neutral Temperature
+2022-05-08 19:39:17.001 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:39:18.006 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:39:19.256 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 15 to 1
+2022-05-08 19:39:19.257 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command CLOSED
+2022-05-08 19:39:19.263 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Close Blind
+2022-05-08 19:39:19.266 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become CLOSED
+2022-05-08 19:39:19.278 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Close Blind
+2022-05-08 19:39:19.283 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from OPEN to CLOSED
+2022-05-08 19:39:19.294 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Neutral Temperature to Close Blind
+2022-05-08 19:39:19.567 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 28 to 27.5
+2022-05-08 19:39:21.022 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from 16.85229695450554 to 12.038855546055204
+2022-05-08 19:39:22.266 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 26 to 10
+2022-05-08 19:39:22.272 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:39:22.278 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:39:22.283 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:39:22.292 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:39:22.295 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from ON to OFF
+2022-05-08 19:39:22.306 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 10 to 0
+2022-05-08 19:39:22.313 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from NEUTRAL to ON
+2022-05-08 19:39:22.327 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command ON
+2022-05-08 19:39:22.336 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light On_Switch
+2022-05-08 19:39:22.338 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Close Blind to Light Off_Sensor
+2022-05-08 19:39:22.339 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become ON
+2022-05-08 19:39:22.341 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light On_Switch
+2022-05-08 19:39:22.343 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from OFF to ON
+2022-05-08 19:39:22.344 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 0 to 10
+2022-05-08 19:39:22.346 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Light On_Switch
+2022-05-08 19:39:23.028 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:39:24.032 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:39:24.034 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from 12.038855546055204 to -4.020950376597476
+2022-05-08 19:39:25.038 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:39:25.280 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from ON to NEUTRAL
+2022-05-08 19:39:26.043 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:39:29.299 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 1 to 2
+2022-05-08 19:39:29.595 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 27.5 to 25
+2022-05-08 19:39:30.062 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:39:30.302 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 2 to 15
+2022-05-08 19:39:31.072 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:39:33.611 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 25 to 22.5
+2022-05-08 19:39:36.622 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 22.5 to 27.5
+2022-05-08 19:39:37.095 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:39:37.626 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 27.5 to 25
+2022-05-08 19:39:38.100 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:39:38.343 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command OPEN
+2022-05-08 19:39:38.347 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Open Blind
+2022-05-08 19:39:38.347 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 15 to 18
+2022-05-08 19:39:38.351 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become OPEN
+2022-05-08 19:39:38.366 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Open Blind
+2022-05-08 19:39:38.369 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from CLOSED to OPEN
+2022-05-08 19:39:38.370 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light On_Switch to Open Blind
+2022-05-08 19:39:38.632 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 25 to 22.5
+2022-05-08 19:39:40.110 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:39:41.116 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:39:47.368 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 18 to 10
+2022-05-08 19:39:47.368 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command CLOSED
+2022-05-08 19:39:47.377 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Close Blind
+2022-05-08 19:39:47.379 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become CLOSED
+2022-05-08 19:39:47.395 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Close Blind
+2022-05-08 19:39:47.402 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from OPEN to CLOSED
+2022-05-08 19:39:47.413 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Open Blind to Close Blind
+2022-05-08 19:39:48.149 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:39:48.373 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command OPEN
+2022-05-08 19:39:48.381 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Open Blind
+2022-05-08 19:39:48.381 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 10 to 12
+2022-05-08 19:39:48.382 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become OPEN
+2022-05-08 19:39:48.387 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Open Blind
+2022-05-08 19:39:48.389 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from CLOSED to OPEN
+2022-05-08 19:39:48.397 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Close Blind to Open Blind
+2022-05-08 19:39:49.149 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:39:49.373 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 12 to 16
+2022-05-08 19:39:49.667 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 22.5 to 7.5
+2022-05-08 19:39:49.672 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'WindowState' received command CLOSED
+2022-05-08 19:39:49.674 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Close Window
+2022-05-08 19:39:49.684 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'RadiatorDial' received command INCREASE
+2022-05-08 19:39:49.695 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Increase Temperature
+2022-05-08 19:39:49.696 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'WindowState' predicted to become CLOSED
+2022-05-08 19:39:49.699 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Close Window
+2022-05-08 19:39:49.703 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'RadiatorDial' predicted to become INCREASE
+2022-05-08 19:39:49.704 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Increase Temperature
+2022-05-08 19:39:49.705 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WindowState' changed from OPEN to CLOSED
+2022-05-08 19:39:49.706 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Open Blind to Close Window
+2022-05-08 19:39:49.706 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from NEUTRAL to INCREASE
+2022-05-08 19:39:49.706 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Close Window to Increase Temperature
+2022-05-08 19:39:49.706 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Increase Temperature to Close Window
+2022-05-08 19:39:49.706 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Close Window to Increase Temperature
+2022-05-08 19:39:51.159 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:39:51.160 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'SmartAssistant_On' changed from OFF to ON
+2022-05-08 19:39:51.380 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 16 to 9
+2022-05-08 19:39:51.392 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command CLOSED
+2022-05-08 19:39:51.395 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Close Blind
+2022-05-08 19:39:51.395 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become CLOSED
+2022-05-08 19:39:51.398 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Close Blind
+2022-05-08 19:39:51.399 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from OPEN to CLOSED
+2022-05-08 19:39:51.401 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Increase Temperature to Close Blind
+2022-05-08 19:39:52.167 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:39:52.168 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from -4.020950376597476 to 18.214797241299063
+2022-05-08 19:39:53.170 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'SmartAssistant_On' changed from ON to OFF
+2022-05-08 19:39:55.184 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from 18.214797241299063 to -3.355888231198815
+2022-05-08 19:40:04.215 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from -3.355888231198815 to 2.120600777373462
+2022-05-08 19:40:04.431 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 9 to 15
+2022-05-08 19:40:04.432 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command OPEN
+2022-05-08 19:40:04.436 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Open Blind
+2022-05-08 19:40:04.438 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become OPEN
+2022-05-08 19:40:04.450 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Open Blind
+2022-05-08 19:40:04.452 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from CLOSED to OPEN
+2022-05-08 19:40:04.453 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Close Blind to Open Blind
+2022-05-08 19:40:05.215 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:40:06.220 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:40:06.442 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 15 to 2
+2022-05-08 19:40:06.444 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command CLOSED
+2022-05-08 19:40:06.452 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Close Blind
+2022-05-08 19:40:06.459 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become CLOSED
+2022-05-08 19:40:06.463 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Close Blind
+2022-05-08 19:40:06.464 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from OPEN to CLOSED
+2022-05-08 19:40:06.464 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Open Blind to Close Blind
+2022-05-08 19:40:08.231 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:40:08.730 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from INCREASE to DECREASE
+2022-05-08 19:40:08.731 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 7.5 to 30.333333333333332
+2022-05-08 19:40:08.735 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'RadiatorDial' received command NEUTRAL
+2022-05-08 19:40:08.737 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Neutral Temperature
+2022-05-08 19:40:08.742 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'WindowState' received command OPEN
+2022-05-08 19:40:08.761 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Open Window
+2022-05-08 19:40:08.766 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'RadiatorDial' predicted to become NEUTRAL
+2022-05-08 19:40:08.768 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Neutral Temperature
+2022-05-08 19:40:08.781 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'WindowState' predicted to become OPEN
+2022-05-08 19:40:08.785 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Open Window
+2022-05-08 19:40:08.797 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from DECREASE to NEUTRAL
+2022-05-08 19:40:08.799 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Close Blind to Neutral Temperature
+2022-05-08 19:40:08.801 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WindowState' changed from CLOSED to OPEN
+2022-05-08 19:40:08.801 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Neutral Temperature to Open Window
+2022-05-08 19:40:09.235 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:40:11.745 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from NEUTRAL to DECREASE
+2022-05-08 19:40:11.746 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 30.333333333333332 to 32
+2022-05-08 19:40:11.752 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'RadiatorDial' received command NEUTRAL
+2022-05-08 19:40:11.754 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Neutral Temperature
+2022-05-08 19:40:11.757 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'RadiatorDial' predicted to become NEUTRAL
+2022-05-08 19:40:11.760 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Neutral Temperature
+2022-05-08 19:40:11.761 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from DECREASE to NEUTRAL
+2022-05-08 19:40:11.761 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Open Window to Neutral Temperature
+2022-05-08 19:40:12.252 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from 2.120600777373462 to -1.5994965214433883
+2022-05-08 19:40:12.749 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 32 to 29
+2022-05-08 19:40:14.758 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from NEUTRAL to DECREASE
+2022-05-08 19:40:16.270 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from -1.5994965214433883 to 19.701244580483532
+2022-05-08 19:40:17.274 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'SmartAssistant_On' changed from OFF to ON
+2022-05-08 19:40:17.773 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 29 to 33
+2022-05-08 19:40:17.779 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'RadiatorDial' received command NEUTRAL
+2022-05-08 19:40:17.780 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Neutral Temperature
+2022-05-08 19:40:17.781 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'RadiatorDial' predicted to become NEUTRAL
+2022-05-08 19:40:17.785 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Neutral Temperature
+2022-05-08 19:40:17.787 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from DECREASE to NEUTRAL
+2022-05-08 19:40:19.284 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from 19.701244580483532 to 5.876905161643811
+2022-05-08 19:40:19.781 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from NEUTRAL to DECREASE
+2022-05-08 19:40:19.784 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 33 to 32.5
+2022-05-08 19:40:19.788 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'RadiatorDial' received command NEUTRAL
+2022-05-08 19:40:19.792 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Neutral Temperature
+2022-05-08 19:40:19.795 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'RadiatorDial' predicted to become NEUTRAL
+2022-05-08 19:40:19.797 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Neutral Temperature
+2022-05-08 19:40:19.804 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from DECREASE to NEUTRAL
+2022-05-08 19:40:20.785 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from NEUTRAL to DECREASE
+2022-05-08 19:40:21.292 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'SmartAssistant_On' changed from ON to OFF
+2022-05-08 19:40:22.297 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:40:22.501 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 2 to 20
+2022-05-08 19:40:22.506 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command OPEN
+2022-05-08 19:40:22.507 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Open Blind
+2022-05-08 19:40:22.519 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become OPEN
+2022-05-08 19:40:22.520 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Open Blind
+2022-05-08 19:40:22.521 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from CLOSED to OPEN
+2022-05-08 19:40:22.522 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Neutral Temperature to Open Blind
+2022-05-08 19:40:23.303 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:40:23.506 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 20 to 4
+2022-05-08 19:40:23.511 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command CLOSED
+2022-05-08 19:40:23.515 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Close Blind
+2022-05-08 19:40:23.517 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become CLOSED
+2022-05-08 19:40:23.519 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Close Blind
+2022-05-08 19:40:23.520 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from OPEN to CLOSED
+2022-05-08 19:40:23.521 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Open Blind to Close Blind
+2022-05-08 19:40:23.803 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 32.5 to 34
+2022-05-08 19:40:23.804 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'RadiatorDial' received command NEUTRAL
+2022-05-08 19:40:23.809 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Neutral Temperature
+2022-05-08 19:40:23.811 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'RadiatorDial' predicted to become NEUTRAL
+2022-05-08 19:40:23.813 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Neutral Temperature
+2022-05-08 19:40:23.814 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from DECREASE to NEUTRAL
+2022-05-08 19:40:23.814 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Close Blind to Neutral Temperature
+2022-05-08 19:40:24.803 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from NEUTRAL to DECREASE
+2022-05-08 19:40:25.809 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 34 to 33.5
+2022-05-08 19:40:25.811 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'RadiatorDial' received command NEUTRAL
+2022-05-08 19:40:25.820 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Neutral Temperature
+2022-05-08 19:40:25.822 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'RadiatorDial' predicted to become NEUTRAL
+2022-05-08 19:40:25.822 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Neutral Temperature
+2022-05-08 19:40:25.825 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from DECREASE to NEUTRAL
+2022-05-08 19:40:26.814 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from NEUTRAL to DECREASE
+2022-05-08 19:40:26.815 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 33.5 to 33
+2022-05-08 19:40:26.823 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'RadiatorDial' received command NEUTRAL
+2022-05-08 19:40:26.828 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Neutral Temperature
+2022-05-08 19:40:26.830 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'RadiatorDial' predicted to become NEUTRAL
+2022-05-08 19:40:26.832 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Neutral Temperature
+2022-05-08 19:40:26.839 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from DECREASE to NEUTRAL
+2022-05-08 19:40:27.818 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from NEUTRAL to DECREASE
+2022-05-08 19:40:27.825 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 33 to 30.5
+2022-05-08 19:40:27.828 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'RadiatorDial' received command NEUTRAL
+2022-05-08 19:40:27.831 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Neutral Temperature
+2022-05-08 19:40:27.834 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'RadiatorDial' predicted to become NEUTRAL
+2022-05-08 19:40:27.834 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Neutral Temperature
+2022-05-08 19:40:27.843 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from DECREASE to NEUTRAL
+2022-05-08 19:40:28.527 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 4 to 0
+2022-05-08 19:40:30.839 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 30.5 to 27.5
+2022-05-08 19:40:31.548 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command OPEN
+2022-05-08 19:40:31.551 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Open Blind
+2022-05-08 19:40:31.553 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 0 to 15
+2022-05-08 19:40:31.553 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become OPEN
+2022-05-08 19:40:31.569 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Open Blind
+2022-05-08 19:40:31.570 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from CLOSED to OPEN
+2022-05-08 19:40:31.571 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Neutral Temperature to Open Blind
+2022-05-08 19:40:31.844 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 27.5 to 30
+2022-05-08 19:40:32.546 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 10 to 17
+2022-05-08 19:40:32.552 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:40:32.556 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:40:32.576 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:40:32.580 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:40:32.581 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from ON to OFF
+2022-05-08 19:40:32.583 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Open Blind to Light Off_Sensor
+2022-05-08 19:40:32.584 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 17 to 7
+2022-05-08 19:40:32.584 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from NEUTRAL to ON
+2022-05-08 19:40:32.590 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command ON
+2022-05-08 19:40:32.593 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light On_Switch
+2022-05-08 19:40:32.596 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become ON
+2022-05-08 19:40:32.597 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light On_Switch
+2022-05-08 19:40:32.601 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from OFF to ON
+2022-05-08 19:40:32.601 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Light On_Switch
+2022-05-08 19:40:32.602 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 7 to 17
+2022-05-08 19:40:32.849 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from NEUTRAL to DECREASE
+2022-05-08 19:40:35.355 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:40:35.558 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from ON to NEUTRAL
+2022-05-08 19:40:36.371 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:40:37.374 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'SmartAssistant_On' changed from OFF to ON
+2022-05-08 19:40:38.374 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'SmartAssistant_On' changed from ON to OFF
+2022-05-08 19:40:40.375 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:40:41.379 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:40:41.584 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 15 to 3
+2022-05-08 19:40:41.588 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command CLOSED
+2022-05-08 19:40:41.596 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Close Blind
+2022-05-08 19:40:41.596 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become CLOSED
+2022-05-08 19:40:41.600 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Close Blind
+2022-05-08 19:40:41.607 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from OPEN to CLOSED
+2022-05-08 19:40:41.624 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light On_Switch to Close Blind
+2022-05-08 19:40:42.882 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 30 to 28
+2022-05-08 19:40:42.889 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'RadiatorDial' received command NEUTRAL
+2022-05-08 19:40:42.893 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Neutral Temperature
+2022-05-08 19:40:42.898 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'RadiatorDial' predicted to become NEUTRAL
+2022-05-08 19:40:42.925 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Neutral Temperature
+2022-05-08 19:40:42.928 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'RadiatorDial' changed from DECREASE to NEUTRAL
+2022-05-08 19:40:42.942 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Close Blind to Neutral Temperature
+2022-05-08 19:40:44.888 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 28 to 25
+2022-05-08 19:40:45.591 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 3 to 2
+2022-05-08 19:40:46.595 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 17 to 10
+2022-05-08 19:40:46.607 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:40:46.616 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:40:46.623 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:40:46.626 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:40:46.651 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from ON to OFF
+2022-05-08 19:40:46.659 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Neutral Temperature to Light Off_Sensor
+2022-05-08 19:40:46.676 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 10 to 0
+2022-05-08 19:40:46.676 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from NEUTRAL to ON
+2022-05-08 19:40:46.695 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command ON
+2022-05-08 19:40:46.719 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light On_Switch
+2022-05-08 19:40:46.729 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become ON
+2022-05-08 19:40:46.747 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light On_Switch
+2022-05-08 19:40:46.757 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from OFF to ON
+2022-05-08 19:40:46.764 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 0 to 10
+2022-05-08 19:40:46.766 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Light On_Switch
+2022-05-08 19:40:49.617 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from ON to NEUTRAL
+2022-05-08 19:40:49.906 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 25 to 27.5
+2022-05-08 19:40:50.404 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from 5.876905161643811 to -10.638151025741447
+2022-05-08 19:40:54.623 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 2 to 7
+2022-05-08 19:40:55.423 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from -10.638151025741447 to -0.143924209962365
+2022-05-08 19:40:57.434 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from -0.143924209962365 to 20.173587237728476
+2022-05-08 19:40:57.443 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'SmartAssistant_On' received command ON
+2022-05-08 19:40:57.448 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Turn On Smart Assistant
+2022-05-08 19:40:57.450 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'SmartAssistant_On' predicted to become ON
+2022-05-08 19:40:57.467 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Turn On Smart Assistant
+2022-05-08 19:40:57.474 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'SmartAssistant_On' changed from OFF to ON
+2022-05-08 19:40:57.474 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light On_Switch to Turn On Smart Assistant
+2022-05-08 19:40:57.637 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 7 to 3
+2022-05-08 19:40:58.438 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'SmartAssistant_On' changed from ON to OFF
+2022-05-08 19:41:00.446 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:41:01.455 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:41:01.652 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 3 to 1
+2022-05-08 19:41:03.461 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:41:03.967 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 27.5 to 25
+2022-05-08 19:41:04.468 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:41:04.468 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:41:05.472 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:41:06.675 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 1 to 16
+2022-05-08 19:41:07.986 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 25 to 22.5
+2022-05-08 19:41:11.501 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:41:12.507 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:41:13.008 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 22.5 to 25
+2022-05-08 19:41:13.707 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command OPEN
+2022-05-08 19:41:13.710 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Open Blind
+2022-05-08 19:41:13.711 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 16 to 0
+2022-05-08 19:41:13.718 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become OPEN
+2022-05-08 19:41:13.728 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Open Blind
+2022-05-08 19:41:13.729 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from CLOSED to OPEN
+2022-05-08 19:41:13.730 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Turn On Smart Assistant to Open Blind
+2022-05-08 19:41:14.711 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 10 to 28
+2022-05-08 19:41:14.715 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:41:14.727 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:41:14.727 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:41:14.728 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:41:14.730 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from ON to OFF
+2022-05-08 19:41:14.735 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Open Blind to Light Off_Sensor
+2022-05-08 19:41:14.737 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 28 to 18
+2022-05-08 19:41:14.741 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:41:14.748 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:41:14.758 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:41:14.761 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:41:16.017 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 25 to 27.5
+2022-05-08 19:41:17.530 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:41:18.537 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:41:18.538 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:41:19.544 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:41:19.544 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from 20.173587237728476 to 5.063082097987382
+2022-05-08 19:41:20.034 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 27.5 to 25
+2022-05-08 19:41:21.552 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:41:21.552 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'SmartAssistant_On' changed from OFF to ON
+2022-05-08 19:41:21.738 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 18 to 3
+2022-05-08 19:41:21.743 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command ON
+2022-05-08 19:41:21.755 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light On_Sensor
+2022-05-08 19:41:21.758 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become ON
+2022-05-08 19:41:21.760 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light On_Sensor
+2022-05-08 19:41:21.772 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from OFF to ON
+2022-05-08 19:41:21.779 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Light On_Sensor
+2022-05-08 19:41:21.783 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 3 to 13
+2022-05-08 19:41:21.799 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:41:21.816 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:41:21.817 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:41:21.820 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:41:21.826 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from ON to OFF
+2022-05-08 19:41:21.843 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light On_Sensor to Light Off_Sensor
+2022-05-08 19:41:21.844 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Light On_Sensor
+2022-05-08 19:41:21.844 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light On_Sensor to Light Off_Sensor
+2022-05-08 19:41:21.844 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 13 to 3
+2022-05-08 19:41:21.845 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from NEUTRAL to ON
+2022-05-08 19:41:21.854 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command ON
+2022-05-08 19:41:21.862 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light On_Switch
+2022-05-08 19:41:21.866 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become ON
+2022-05-08 19:41:21.874 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light On_Switch
+2022-05-08 19:41:21.876 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from OFF to ON
+2022-05-08 19:41:21.882 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 3 to 13
+2022-05-08 19:41:21.883 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Light On_Switch
+2022-05-08 19:41:22.556 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:41:22.558 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:41:23.560 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:41:24.566 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'SmartAssistant_On' changed from ON to OFF
+2022-05-08 19:41:24.829 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from ON to NEUTRAL
+2022-05-08 19:41:25.056 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 25 to 22.5
+2022-05-08 19:41:29.768 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 0 to 6
+2022-05-08 19:41:29.768 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command CLOSED
+2022-05-08 19:41:29.773 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Close Blind
+2022-05-08 19:41:29.773 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become CLOSED
+2022-05-08 19:41:29.777 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Close Blind
+2022-05-08 19:41:29.778 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from OPEN to CLOSED
+2022-05-08 19:41:29.783 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light On_Switch to Close Blind
+2022-05-08 19:41:32.599 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:41:33.606 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:41:33.795 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 13 to 10
+2022-05-08 19:41:33.805 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:41:33.810 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:41:33.843 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:41:33.855 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:41:33.858 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from ON to OFF
+2022-05-08 19:41:33.891 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 10 to 0
+2022-05-08 19:41:33.892 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from NEUTRAL to ON
+2022-05-08 19:41:33.902 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command ON
+2022-05-08 19:41:33.909 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light On_Switch
+2022-05-08 19:41:33.909 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Close Blind to Light Off_Sensor
+2022-05-08 19:41:33.910 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become ON
+2022-05-08 19:41:33.954 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light On_Switch
+2022-05-08 19:41:33.956 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from OFF to ON
+2022-05-08 19:41:33.991 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 0 to 10
+2022-05-08 19:41:33.992 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Light On_Switch
+2022-05-08 19:41:35.644 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from 5.063082097987382 to 12.807845677051972
+2022-05-08 19:41:36.805 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 6 to 18
+2022-05-08 19:41:36.843 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command OPEN
+2022-05-08 19:41:36.847 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Open Blind
+2022-05-08 19:41:36.848 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become OPEN
+2022-05-08 19:41:36.851 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Open Blind
+2022-05-08 19:41:36.855 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from ON to NEUTRAL
+2022-05-08 19:41:36.855 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from CLOSED to OPEN
+2022-05-08 19:41:36.857 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light On_Switch to Open Blind
+2022-05-08 19:41:37.805 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 18 to 7
+2022-05-08 19:41:37.806 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command CLOSED
+2022-05-08 19:41:37.849 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Close Blind
+2022-05-08 19:41:37.850 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become CLOSED
+2022-05-08 19:41:37.854 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Close Blind
+2022-05-08 19:41:37.859 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from OPEN to CLOSED
+2022-05-08 19:41:37.891 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Open Blind to Close Blind
+2022-05-08 19:41:38.105 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 22.5 to 12.5
+2022-05-08 19:41:38.158 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'WindowState' received command CLOSED
+2022-05-08 19:41:38.192 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Close Window
+2022-05-08 19:41:38.192 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'WindowState' predicted to become CLOSED
+2022-05-08 19:41:38.193 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Close Window
+2022-05-08 19:41:38.194 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WindowState' changed from OPEN to CLOSED
+2022-05-08 19:41:38.194 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Close Blind to Close Window
+2022-05-08 19:41:39.107 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 12.5 to 11.666666666666666
+2022-05-08 19:41:39.644 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:41:40.644 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:41:41.145 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 11.666666666666666 to 13.333333333333334
+2022-05-08 19:41:45.849 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command OPEN
+2022-05-08 19:41:45.893 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Open Blind
+2022-05-08 19:41:45.903 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 7 to 13
+2022-05-08 19:41:45.905 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become OPEN
+2022-05-08 19:41:45.906 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Open Blind
+2022-05-08 19:41:45.908 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from CLOSED to OPEN
+2022-05-08 19:41:45.909 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Close Window to Open Blind
+2022-05-08 19:41:46.657 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:41:47.152 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 13.333333333333334 to 10
+2022-05-08 19:41:47.700 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:41:48.903 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 10 to 28
+2022-05-08 19:41:48.944 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:41:48.951 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:41:48.955 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:41:49.059 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:41:49.102 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from ON to OFF
+2022-05-08 19:41:49.103 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Open Blind to Light Off_Sensor
+2022-05-08 19:41:49.104 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 28 to 18
+2022-05-08 19:41:49.144 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:41:49.150 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:41:49.152 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:41:49.155 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:41:54.697 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from 12.807845677051972 to 3.0623432305134908
+2022-05-08 19:41:54.897 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 13 to 9
+2022-05-08 19:41:54.904 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command CLOSED
+2022-05-08 19:41:54.910 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Close Blind
+2022-05-08 19:41:54.945 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become CLOSED
+2022-05-08 19:41:54.951 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Close Blind
+2022-05-08 19:41:54.952 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from OPEN to CLOSED
+2022-05-08 19:41:54.952 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Close Blind
+2022-05-08 19:41:55.698 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from 3.0623432305134908 to 8.511336095410993
+2022-05-08 19:41:56.696 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from 8.511336095410993 to 18.689998755100156
+2022-05-08 19:41:57.198 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 10 to 11.666666666666666
+2022-05-08 19:41:57.896 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 9 to 5
+2022-05-08 19:41:57.900 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 18 to 0
+2022-05-08 19:41:57.904 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command ON
+2022-05-08 19:41:57.908 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light On_Sensor
+2022-05-08 19:41:57.948 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become ON
+2022-05-08 19:41:57.959 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light On_Sensor
+2022-05-08 19:41:57.998 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from OFF to ON
+2022-05-08 19:41:58.002 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Close Blind to Light On_Sensor
+2022-05-08 19:41:58.004 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 0 to 10
+2022-05-08 19:41:58.094 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:41:58.099 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:41:58.101 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:41:58.107 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:41:58.144 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from ON to OFF
+2022-05-08 19:41:58.150 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 10 to 0
+2022-05-08 19:41:58.152 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from NEUTRAL to ON
+2022-05-08 19:41:58.157 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command ON
+2022-05-08 19:41:58.199 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light On_Switch
+2022-05-08 19:41:58.199 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light On_Sensor to Light Off_Sensor
+2022-05-08 19:41:58.200 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become ON
+2022-05-08 19:41:58.201 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light On_Switch
+2022-05-08 19:41:58.203 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from OFF to ON
+2022-05-08 19:41:58.204 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Light On_Switch
+2022-05-08 19:41:58.300 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 0 to 10
+2022-05-08 19:41:58.307 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 11.666666666666666 to 10
+2022-05-08 19:41:59.695 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:42:00.704 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED
+2022-05-08 19:42:01.020 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from ON to NEUTRAL
+2022-05-08 19:42:01.706 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from 18.689998755100156 to 7.338217559493328
+2022-05-08 19:42:02.890 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OutsideLightLevel' changed from 5 to 17
+2022-05-08 19:42:02.891 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'BlindsState' received command OPEN
+2022-05-08 19:42:02.891 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Open Blind
+2022-05-08 19:42:02.898 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'BlindsState' predicted to become OPEN
+2022-05-08 19:42:02.899 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Open Blind
+2022-05-08 19:42:02.900 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'BlindsState' changed from CLOSED to OPEN
+2022-05-08 19:42:02.902 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light On_Switch to Open Blind
+2022-05-08 19:42:04.193 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideTemperatureLevel' changed from 10 to 18.333333333333332
+2022-05-08 19:42:04.899 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 10 to 19
+2022-05-08 19:42:04.905 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command OFF
+2022-05-08 19:42:04.908 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light Off_Sensor
+2022-05-08 19:42:04.916 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become OFF
+2022-05-08 19:42:04.920 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light Off_Sensor
+2022-05-08 19:42:04.922 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from ON to OFF
+2022-05-08 19:42:04.923 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 19 to 9
+2022-05-08 19:42:04.926 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightSwitchState' changed from NEUTRAL to ON
+2022-05-08 19:42:04.932 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'LightBulb_LightState' received command ON
+2022-05-08 19:42:04.933 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification' received command Light On_Switch
+2022-05-08 19:42:04.935 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Open Blind to Light Off_Sensor
+2022-05-08 19:42:04.936 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'LightBulb_LightState' predicted to become ON
+2022-05-08 19:42:04.945 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification' predicted to become Light On_Switch
+2022-05-08 19:42:04.946 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightBulb_LightState' changed from OFF to ON
+2022-05-08 19:42:04.946 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'InsideLightLevel' changed from 9 to 19
+2022-05-08 19:42:04.947 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification' changed from Light Off_Sensor to Light On_Switch
+2022-05-08 19:42:05.723 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'NoiseLevelSensor_NoiseLevel' changed from 7.338217559493328 to -10.674126646587997
+2022-05-08 19:42:07.730 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from DISENGAGED to ENGAGED
+2022-05-08 19:42:08.735 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Phone_Engaged' changed from ENGAGED to DISENGAGED

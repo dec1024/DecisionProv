@@ -1,0 +1,78 @@
+2022-05-07 17:17:33.662 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_SignalStrength' changed from NULL to 4.0
+2022-05-07 17:17:33.677 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_ColorTemperature' changed from NULL to 50
+2022-05-07 17:17:33.692 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_Power' changed from NULL to ON
+2022-05-07 17:17:33.700 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_Color' changed from NULL to 0,0,61
+2022-05-07 17:17:33.713 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_DynamicLightModeSpeed' changed from NULL to 0
+2022-05-07 17:17:34.426 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:05545ad805' changed from UNINITIALIZED to INITIALIZING
+2022-05-07 17:17:34.456 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:05545ad805' changed from INITIALIZING to OFFLINE
+2022-05-07 17:17:35.104 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'tapocontrol:bridge:93dbc470f0' changed from UNINITIALIZED to INITIALIZING
+2022-05-07 17:17:35.254 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'wizlighting:wizColorBulb:d3d0b89110' changed from UNINITIALIZED to INITIALIZING
+2022-05-07 17:17:35.280 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'wizlighting:wizColorBulb:d3d0b89110' changed from INITIALIZING to UNKNOWN
+2022-05-07 17:17:35.336 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'wizlighting:wizColorBulb:d3d0b89110' changed from UNKNOWN to ONLINE
+2022-05-07 17:17:35.383 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_LastUpdate' changed from NULL to 2022-05-07T17:17:35.338310+0200
+2022-05-07 17:17:35.431 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:topic:05545ad805:12c3a6b2d1' changed from UNINITIALIZED to INITIALIZING
+2022-05-07 17:17:35.478 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:05545ad805' changed from OFFLINE to ONLINE
+2022-05-07 17:17:35.490 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:topic:05545ad805:12c3a6b2d1' changed from INITIALIZING to OFFLINE (BRIDGE_OFFLINE)
+2022-05-07 17:17:35.495 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:topic:05545ad805:cb63cc00fe' changed from UNINITIALIZED to INITIALIZING
+2022-05-07 17:17:35.502 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:topic:05545ad805:12c3a6b2d1' changed from OFFLINE (BRIDGE_OFFLINE) to ONLINE
+2022-05-07 17:17:35.505 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:topic:05545ad805:cb63cc00fe' changed from INITIALIZING to ONLINE
+2022-05-07 17:17:35.506 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:topic:05545ad805:c15f7f0e00' changed from UNINITIALIZED to INITIALIZING
+2022-05-07 17:17:35.510 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:topic:05545ad805:c15f7f0e00' changed from INITIALIZING to ONLINE
+2022-05-07 17:17:35.635 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'tapocontrol:bridge:93dbc470f0' changed from INITIALIZING to UNKNOWN
+2022-05-07 17:17:36.404 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_LastUpdate' changed from 2022-05-07T17:17:35.338310+0200 to 2022-05-07T17:17:36.401908+0200
+2022-05-07 17:17:36.417 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_Color' changed from 0,0,61 to 0,100,61
+2022-05-07 17:17:36.437 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_LightMode' changed from NULL to 0
+2022-05-07 17:17:37.667 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'tapocontrol:bridge:93dbc470f0' changed from UNKNOWN to ONLINE
+2022-05-07 17:17:37.933 [INFO ] [openhab.event.InboxAddedEvent       ] - Discovery Result with UID 'tapocontrol:L510_Series:93dbc470f0:28EE52ABB7E2' has been added.
+2022-05-07 17:18:36.472 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_LastUpdate' changed from 2022-05-07T17:17:36.401908+0200 to 2022-05-07T17:18:36.466796+0200
+2022-05-07 17:18:59.599 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Sensor2_DoorSensor2' changed from NULL to False
+2022-05-07 17:19:09.748 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Sensor1_DoorSensor1' changed from NULL to False
+2022-05-07 17:19:09.759 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'WiZColorBulb_Color' received command 124,100,100
+2022-05-07 17:19:09.782 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'WiZColorBulb_Color' predicted to become 124,100,100
+2022-05-07 17:19:09.814 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification_ProvRuleNotification' received command Colour Change 2
+2022-05-07 17:19:09.834 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_Color' changed from 0,100,61 to 124,100,100
+2022-05-07 17:19:09.835 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification_ProvRuleNotification' predicted to become Colour Change 2
+2022-05-07 17:19:09.852 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification_ProvRuleNotification' changed from NULL to Colour Change 2
+2022-05-07 17:19:09.870 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_LastUpdate' changed from 2022-05-07T17:18:36.466796+0200 to 2022-05-07T17:19:09.837251+0200
+2022-05-07 17:19:09.875 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_Color' changed from 124,100,100 to 123,100,100
+2022-05-07 17:19:25.089 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Sensor2_DoorSensor2' changed from False to True
+2022-05-07 17:19:35.537 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Sensor1_DoorSensor1' changed from False to True
+2022-05-07 17:19:35.542 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'WiZColorBulb_Color' received command 0,67,61
+2022-05-07 17:19:35.547 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'WiZColorBulb_Color' predicted to become 0,67,61
+2022-05-07 17:19:35.561 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_Color' changed from 123,100,100 to 0,67,61
+2022-05-07 17:19:35.572 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification_ProvRuleNotification' received command Colour Change 1
+2022-05-07 17:19:35.584 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification_ProvRuleNotification' predicted to become Colour Change 1
+2022-05-07 17:19:35.650 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification_ProvRuleNotification' changed from Colour Change 2 to Colour Change 1
+2022-05-07 17:19:35.651 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_LastUpdate' changed from 2022-05-07T17:19:09.837251+0200 to 2022-05-07T17:19:35.592259+0200
+2022-05-07 17:19:35.659 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_Color' changed from 0,67,61 to 0,100,61
+2022-05-07 17:19:36.505 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_LastUpdate' changed from 2022-05-07T17:19:35.592259+0200 to 2022-05-07T17:19:36.503422+0200
+2022-05-07 17:20:36.127 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Sensor2_DoorSensor2' changed from True to False
+2022-05-07 17:20:36.611 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_LastUpdate' changed from 2022-05-07T17:19:36.503422+0200 to 2022-05-07T17:20:36.609592+0200
+2022-05-07 17:20:43.624 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Sensor1_DoorSensor1' changed from True to False
+2022-05-07 17:20:43.627 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'WiZColorBulb_Color' received command 124,100,100
+2022-05-07 17:20:43.649 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification_ProvRuleNotification' received command Colour Change 2
+2022-05-07 17:20:43.653 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'WiZColorBulb_Color' predicted to become 124,100,100
+2022-05-07 17:20:43.655 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification_ProvRuleNotification' predicted to become Colour Change 2
+2022-05-07 17:20:43.662 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_Color' changed from 0,100,61 to 124,100,100
+2022-05-07 17:20:43.663 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification_ProvRuleNotification' changed from Colour Change 1 to Colour Change 2
+2022-05-07 17:20:43.966 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_LastUpdate' changed from 2022-05-07T17:20:36.609592+0200 to 2022-05-07T17:20:43.963539+0200
+2022-05-07 17:20:43.970 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_Color' changed from 124,100,100 to 123,100,100
+2022-05-07 17:20:47.183 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Sensor2_DoorSensor2' changed from False to True
+2022-05-07 17:20:53.989 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Sensor1_DoorSensor1' changed from False to True
+2022-05-07 17:20:53.990 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'WiZColorBulb_Color' received command 0,67,61
+2022-05-07 17:20:53.994 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification_ProvRuleNotification' received command Colour Change 1
+2022-05-07 17:20:54.026 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'WiZColorBulb_Color' predicted to become 0,67,61
+2022-05-07 17:20:54.031 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification_ProvRuleNotification' predicted to become Colour Change 1
+2022-05-07 17:20:54.046 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_Color' changed from 123,100,100 to 0,67,61
+2022-05-07 17:20:54.047 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification_ProvRuleNotification' changed from Colour Change 2 to Colour Change 1
+2022-05-07 17:21:04.936 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Sensor2_DoorSensor2' changed from True to False
+2022-05-07 17:21:12.497 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Sensor1_DoorSensor1' changed from True to False
+2022-05-07 17:21:12.498 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'WiZColorBulb_Color' received command 124,100,100
+2022-05-07 17:21:12.502 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'ProvRuleNotification_ProvRuleNotification' received command Colour Change 2
+2022-05-07 17:21:12.513 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'WiZColorBulb_Color' predicted to become 124,100,100
+2022-05-07 17:21:12.557 [INFO ] [penhab.event.ItemStatePredictedEvent] - Item 'ProvRuleNotification_ProvRuleNotification' predicted to become Colour Change 2
+2022-05-07 17:21:12.592 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_Color' changed from 0,67,61 to 124,100,100
+2022-05-07 17:21:12.597 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ProvRuleNotification_ProvRuleNotification' changed from Colour Change 1 to Colour Change 2
+2022-05-07 17:21:12.600 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_LastUpdate' changed from 2022-05-07T17:20:43.963539+0200 to 2022-05-07T17:21:12.552531+0200
+2022-05-07 17:21:12.603 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_Color' changed from 124,100,100 to 123,100,100
+2022-05-07 17:21:36.710 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'WiZColorBulb_LastUpdate' changed from 2022-05-07T17:21:12.552531+0200 to 2022-05-07T17:21:36.709543+0200
